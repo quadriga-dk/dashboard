@@ -1546,7 +1546,7 @@
     ]
   },
   "bild-03": {
-    "wordCount": 49339,
+    "wordCount": 50008,
     "openIssues": 5,
     "chapterCounts": [
       {
@@ -1731,7 +1731,7 @@
       },
       {
         "chapter": "reflexion_resümee/reflexion_zusammenfassung",
-        "words": 3
+        "words": 672
       },
       {
         "chapter": "epilog/toc",
@@ -1764,7 +1764,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 30123,
+    "wordCount": 30669,
     "openIssues": 7,
     "chapterCounts": [
       {
@@ -1849,15 +1849,15 @@
       },
       {
         "chapter": "annotation/workflow.md",
-        "words": 1322
+        "words": 1601
       },
       {
         "chapter": "annotation/modelle.md",
-        "words": 566
+        "words": 681
       },
       {
         "chapter": "annotation/technik.md",
-        "words": 1601
+        "words": 1753
       },
       {
         "chapter": "annotation/einstellung_intro.md",
