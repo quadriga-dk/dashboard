@@ -64,15 +64,26 @@ function setKPI(id, value) {
 }
 
 // ── Donut chart ───────────────────────────────────────────────────────────────
-function renderDonut(elId, labels, series, colors) {
+function renderDonut(elId, labels, series, colors, height = 350) {
   const el = document.getElementById(elId);
   if (!el) return;
   new ApexCharts(el, {
-    chart: { type: 'donut', height: 350, fontFamily: 'inherit' },
+    chart: { type: 'donut', height: height, fontFamily: 'inherit' },
     series, labels,
     colors: colors || COMM_PALETTE,
-    legend: { position: 'bottom', fontSize: '12px', itemMargin: { horizontal: 6, vertical: 4 } },
-    plotOptions: { pie: { donut: { size: '62%',
+    legend: { 
+      show: true,
+      position: 'right',
+      offsetY: 0,
+      fontSize: '12px',
+      formatter: function (seriesName, opts) {
+        const count = opts.w.globals.series[opts.seriesIndex];
+        return `${seriesName} (${count})`;
+      },
+      itemMargin: { vertical: 4 },
+      markers: { width: 12, height: 12, radius: 12 }
+    },
+    plotOptions: { pie: { donut: { size: '55%',
       labels: { show: true, total: { show: true, label: 'Gesamt', color: '#00305e', fontSize: '13px', fontWeight: 700 } }
     } } },
     dataLabels: { enabled: false },
@@ -119,11 +130,11 @@ function renderTimeline(elId, yearData, color) {
 }
 
 // ── Stacked bar chart ─────────────────────────────────────────────────────────
-function renderStackedBar(elId, years, seriesData) {
+function renderStackedBar(elId, years, seriesData, height = 260) {
   const el = document.getElementById(elId);
   if (!el) return;
   new ApexCharts(el, {
-    chart: { type: 'bar', height: 260, fontFamily: 'inherit', toolbar: { show: false }, stacked: true },
+    chart: { type: 'bar', height: height, fontFamily: 'inherit', toolbar: { show: false }, stacked: true },
     plotOptions: { 
       bar: { 
         borderRadius: 3, 
@@ -153,31 +164,16 @@ function renderTagCloud(elId, values, cssClass) {
     : '<span class="text-muted small">Keine Daten</span>';
 }
 
-// ── Region horizontal bars ────────────────────────────────────────────────────
-function renderRegionBars(elId, koopData) {
-  const flat = {};
-  koopData.forEach(d => {
-    const raw = d['Region der Institution (Bundesland)'];
-    if (!raw) return;
-    raw.split(/[;,]/).map(s => s.trim()).filter(Boolean).forEach(r => { flat[r] = (flat[r] || 0) + 1; });
-  });
-  const sorted = Object.entries(flat).sort((a, b) => b[1] - a[1]);
-  renderHBar(elId, sorted.map(s => s[0]), sorted.map(s => s[1]), '#818bac');
-}
-
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function initCommunity() {
   try {
-    const [koopData, veranstalData, beitraegeData, pubData] = await Promise.all([
-      loadJSON('Aktive_Kooperationen.json'),
+    const [veranstalData, beitraegeData, pubData] = await Promise.all([
       loadJSON('Durchgef%C3%BChrte_externe_Veranstal.json'),
       loadJSON('Eigene_Beitr%C3%A4ge_extern.json'),
       loadJSON('Publikationen.json')
     ]);
 
     // ── KPIs ────────────────────────────────────────────────────────────────
-    const activeKoop = koopData.filter(d => d['Aktiv (Ja/Nein)'] === 'Ja').length;
-    setKPI('kpi-kooperationen', activeKoop);
     setKPI('kpi-beitraege', beitraegeData.length);
     setKPI('kpi-veranstaltungen', veranstalData.length);
     setKPI('kpi-publikationen', pubData.length);
@@ -187,15 +183,6 @@ async function initCommunity() {
     const typCounts = countBy(veranstalData, 'Typ der Veranstaltung');
     renderDonut('chart-veranstal-typ', Object.keys(typCounts), Object.values(typCounts), COMM_PALETTE);
 
-    // Timeline
-    const veranstalByYear = {};
-    veranstalData.forEach(d => {
-      const raw = d['Datum der Veranstaltung'];
-      if (raw) { const y = raw.substring(0, 4); veranstalByYear[y] = (veranstalByYear[y] || 0) + 1; }
-    });
-    renderTimeline('chart-veranstal-timeline',
-      Object.entries(veranstalByYear).sort((a, b) => a[0].localeCompare(b[0])).map(([year, count]) => ({ year, count })),
-      '#00305e'); // quadriga-main
 
     // Externe Partner tag cloud
     renderTagCloud('tags-externe-partner', uniqueValues(veranstalData, 'Externe Partner (Liste)'), 'tag-indigo');
@@ -206,15 +193,6 @@ async function initCommunity() {
     const artEntries = Object.entries(artCounts).sort((a, b) => b[1] - a[1]);
     renderHBar('chart-beitraege-art', artEntries.map(e => e[0]), artEntries.map(e => e[1]), '#638ecb'); // indigo
 
-    // Timeline
-    const beitraegeByYear = {};
-    beitraegeData.forEach(d => {
-      const raw = d['Datum der Veranstaltung'];
-      if (raw) { const y = raw.substring(0, 4); beitraegeByYear[y] = (beitraegeByYear[y] || 0) + 1; }
-    });
-    renderTimeline('chart-beitraege-timeline',
-      Object.entries(beitraegeByYear).sort((a, b) => a[0].localeCompare(b[0])).map(([year, count]) => ({ year, count })),
-      '#638ecb'); // indigo
 
     // Veranstaltende Organisation – tag cloud
     renderTagCloud('tags-org', uniqueValues(beitraegeData, 'Veranstaltende Organisation'), 'tag-web');
@@ -228,7 +206,7 @@ async function initCommunity() {
     const pubTypCounts = countBy(pubData, 'Art der Publikation');
     renderDonut('chart-pub-typ',
       Object.keys(pubTypCounts).map(k => pubTypeLabels[k] || k),
-      Object.values(pubTypCounts), COMM_PALETTE);
+      Object.values(pubTypCounts), COMM_PALETTE, 420);
 
     // Stacked bar: per year per type
     const pubYears = [...new Set(pubData.map(d => String(d['Datum der Publikation'])).filter(Boolean))].sort();
@@ -237,21 +215,7 @@ async function initCommunity() {
       name: pubTypeLabels[typ] || typ,
       data: pubYears.map(y => pubData.filter(d => String(d['Datum der Publikation']) === y && d['Art der Publikation'] === typ).length)
     }));
-    renderStackedBar('chart-pub-year', pubYears, seriesData);
-
-    // ── Kooperationen ────────────────────────────────────────────────────────
-    const activeKoopData = koopData.filter(d => d['Aktiv (Ja/Nein)'] === 'Ja');
-    renderRegionBars('chart-koop-region', activeKoopData); // uses quadriga-main-45 (#818bac)
-
-    // By Disziplin
-    const diszMap = {};
-    activeKoopData.forEach(d => {
-      const raw = d['Disziplin der Institution'];
-      if (!raw) return;
-      raw.split(/[;,]/).map(s => s.trim()).filter(Boolean).forEach(disc => { diszMap[disc] = (diszMap[disc] || 0) + 1; });
-    });
-    const discEntries = Object.entries(diszMap).sort((a, b) => b[1] - a[1]).slice(0, 10);
-    renderHBar('chart-koop-disziplin', discEntries.map(e => e[0]), discEntries.map(e => e[1]), '#9fc796'); // green tone
+    renderStackedBar('chart-pub-year', pubYears, seriesData, 350);
 
     document.getElementById('comm-loading').classList.add('d-none');
 

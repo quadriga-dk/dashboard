@@ -42,7 +42,6 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-folder2-open"></i></div>
               <div>
                 <div class="kpi-title">Fallstudien</div>
                 <div class="kpi-value" id="kpi-total-cases">–</div>
@@ -53,7 +52,6 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-book"></i></div>
               <div>
                 <div class="kpi-title">Kapitel</div>
                 <div class="kpi-value" id="kpi-total-chapters">–</div>
@@ -64,7 +62,6 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-bullseye"></i></div>
               <div>
                 <div class="kpi-title">Lernziele</div>
                 <div class="kpi-value" id="kpi-total-objectives">–</div>
@@ -75,7 +72,6 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-trophy"></i></div>
               <div>
                 <div class="kpi-title">Selbsttests</div>
                 <div class="kpi-value" id="kpi-total-assessments">–</div>
@@ -86,7 +82,6 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-chat-text"></i></div>
               <div>
                 <div class="kpi-title">Wörter</div>
                 <div class="kpi-value" id="kpi-total-words">–</div>
@@ -128,17 +123,17 @@
       <div class="row g-3 mb-3">
         <div class="col-lg-7">
           <div class="card shadow-sm h-100">
-            <div class="card-header text-muted small">Datenfluss-Stufen</div>
-            <div class="card-body">
-              <div id="dataflow-chart"></div>
+            <div class="card-body d-flex flex-column">
+              <div class="chart-label mb-3">Datenfluss-Stufen</div>
+              <div id="dataflow-chart" class="flex-grow-1"></div>
             </div>
           </div>
         </div>
         <div class="col-lg-5">
           <div class="card shadow-sm h-100">
-            <div class="card-header text-muted small">Kompetenz-Abdeckung</div>
-            <div class="card-body">
-              <div id="competency-chart"></div>
+            <div class="card-body d-flex flex-column">
+              <div class="chart-label mb-3">Kompetenz-Abdeckung</div>
+              <div id="competency-chart" class="flex-grow-1"></div>
             </div>
           </div>
         </div>
@@ -160,17 +155,17 @@
       <div class="row g-3">
         <div class="col-lg-5">
           <div class="card shadow-sm h-100">
-            <div class="card-header text-muted small">Globale Blooms-Category</div>
-            <div class="card-body d-flex align-items-center justify-content-center">
-              <div id="bloom-global-chart" style="width:100%"></div>
+            <div class="card-body d-flex flex-column">
+              <div class="chart-label mb-3">Globale Blooms-Category</div>
+              <div id="bloom-global-chart" class="d-flex flex-column justify-content-center flex-grow-1" style="width:100%"></div>
             </div>
           </div>
         </div>
         <div class="col-lg-7">
           <div class="card shadow-sm h-100">
-            <div class="card-header text-muted small">Blooms-Category je Fallstudie</div>
-            <div class="card-body">
-              <div id="bloom-per-case-chart"></div>
+            <div class="card-body d-flex flex-column">
+              <div class="chart-label mb-3">Blooms-Category je Fallstudie</div>
+              <div id="bloom-per-case-chart" class="flex-grow-1"></div>
             </div>
           </div>
         </div>

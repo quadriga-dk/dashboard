@@ -24,7 +24,7 @@ function loadNavbar() {
           <a class="nav-link" href="index.html" id="nav-index">QUADRIGA OER</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="community.html" id="nav-community">Veranstaltungen, Beiträge, Kooperationen</a>
+          <a class="nav-link" href="community.html" id="nav-community">Veranstaltungen, Beiträge und Publikationen</a>
         </li>
       </ul>
     </div>

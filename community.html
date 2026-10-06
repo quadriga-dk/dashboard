@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Veranstaltungen, Beiträge, Kooperationen</title>
+  <title>Veranstaltungen, Beiträge und Publikationen</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -21,9 +21,9 @@
     <!-- Page header -->
     <div class="d-flex flex-wrap justify-content-between align-items-end mb-4">
       <div>
-        <h2 class="mb-1 fw-bold">Veranstaltungen, Beiträge, Kooperationen</h2>
+        <h2 class="mb-1 fw-bold">Veranstaltungen, Beiträge und Publikationen</h2>
         <p class="text-secondary mb-0 small">
-          Externe Veranstaltungen, Beiträge, aktive Kooperationen und Publikationen des QUADRIGA-Projekts.
+          Externe Veranstaltungen, Beiträge und Publikationen des QUADRIGA-Projekts.
         </p>
       </div>
     </div>
@@ -40,19 +40,6 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-people"></i></div>
-              <div>
-                <div class="kpi-title">Aktive Kooperationen</div>
-                <div class="kpi-value" id="kpi-kooperationen">–</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="kpi-card kpi-card-blue h-100">
-            <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-star"></i></div>
               <div>
                 <div class="kpi-title">Eigene Beiträge (extern)</div>
                 <div class="kpi-value" id="kpi-beitraege">–</div>
@@ -64,7 +51,6 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-calendar-check"></i></div>
               <div>
                 <div class="kpi-title">Externe Veranstaltungen</div>
                 <div class="kpi-value" id="kpi-veranstaltungen">–</div>
@@ -76,10 +62,20 @@
         <div class="col">
           <div class="kpi-card kpi-card-blue h-100">
             <div class="kpi-card-body">
-              <div class="kpi-icon"><i class="bi bi-journal-text"></i></div>
               <div>
                 <div class="kpi-title">Publikationen</div>
                 <div class="kpi-value" id="kpi-publikationen">–</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="kpi-card kpi-card-blue h-100">
+            <div class="kpi-card-body">
+              <div>
+                <div class="kpi-title">Public Outreach</div>
+                <div class="kpi-value text-muted" id="kpi-public-outreach" style="font-size: 1.2rem;">[Demo Text]</div>
               </div>
             </div>
           </div>
@@ -101,9 +97,9 @@
         <!-- Typ der Veranstaltung – donut -->
         <div class="col-lg-5">
           <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <div class="chart-label">Typ der Veranstaltung</div>
-              <div id="chart-veranstal-typ"></div>
+            <div class="card-body d-flex flex-column">
+              <div class="chart-label mb-3">Typ der Veranstaltung</div>
+              <div id="chart-veranstal-typ" class="d-flex flex-column justify-content-center flex-grow-1"></div>
             </div>
           </div>
         </div>
@@ -112,9 +108,11 @@
         <div class="col-lg-7">
           <div class="card shadow-sm h-100">
             <div class="card-body">
-              <div class="mb-4">
-                <div class="chart-label">Veranstaltungen nach Jahr</div>
-                <div id="chart-veranstal-timeline"></div>
+              <div class="mb-4 pb-3 border-bottom">
+                <div class="chart-label">Public Outreach</div>
+                <div class="text-muted small py-4 text-center bg-light rounded d-flex align-items-center justify-content-center" style="min-height: 140px;">
+                  <em>[Demo text: Data for Public Outreach will be displayed here as a stacked bar chart.]</em>
+                </div>
               </div>
               <div>
                 <div class="chart-label">Externe Partner</div>
@@ -147,17 +145,13 @@
           </div>
         </div>
 
-        <!-- Timeline + Organisationen -->
+        <!-- Organisationen -->
         <div class="col-lg-6">
           <div class="card shadow-sm h-100">
             <div class="card-body">
-              <div class="mb-4">
-                <div class="chart-label">Beiträge nach Jahr</div>
-                <div id="chart-beitraege-timeline"></div>
-              </div>
               <div>
-                <div class="chart-label">Veranstaltende Organisationen</div>
-                <div id="tags-org" class="d-flex flex-wrap"></div>
+                <div class="chart-label mb-3">Veranstaltende Organisationen</div>
+                <div id="tags-org" class="d-flex flex-wrap mt-2"></div>
               </div>
             </div>
           </div>
@@ -177,54 +171,21 @@
       <div class="row g-3">
 
         <!-- Art der Publikation – donut -->
-        <div class="col-lg-4">
+        <div class="col-lg-5">
           <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <div class="chart-label">Art der Publikation</div>
-              <div id="chart-pub-typ"></div>
+            <div class="card-body d-flex flex-column">
+              <div class="chart-label mb-3">Art der Publikation</div>
+              <div id="chart-pub-typ" class="d-flex flex-column justify-content-center flex-grow-1"></div>
             </div>
           </div>
         </div>
 
         <!-- Stacked bar per year -->
-        <div class="col-lg-8">
+        <div class="col-lg-7">
           <div class="card shadow-sm h-100">
             <div class="card-body">
               <div class="chart-label">Publikationen nach Jahr &amp; Typ</div>
               <div id="chart-pub-year"></div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════════════════════ -->
-    <!-- Aktive Kooperationen                                                   -->
-    <!-- ═══════════════════════════════════════════════════════════════════════ -->
-    <section class="mb-5">
-      <div class="section-header">
-        <h5>Aktive Kooperationen</h5>
-      </div>
-
-      <div class="row g-3">
-
-        <!-- Region -->
-        <div class="col-lg-6">
-          <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <div class="chart-label">Kooperationspartner nach Region (Bundesland)</div>
-              <div id="chart-koop-region"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Disziplin -->
-        <div class="col-lg-6">
-          <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <div class="chart-label">Kooperationspartner nach Disziplin</div>
-              <div id="chart-koop-disziplin"></div>
             </div>
           </div>
         </div>
