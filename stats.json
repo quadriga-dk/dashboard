@@ -474,7 +474,7 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 20336,
+    "wordCount": 20155,
     "openIssues": 4,
     "chapterCounts": [
       {
@@ -511,11 +511,11 @@
       },
       {
         "chapter": "Kapitel2_Einarbeiten/vorgaben",
-        "words": 1829
+        "words": 1631
       },
       {
         "chapter": "Kapitel2_Einarbeiten/resumee",
-        "words": 235
+        "words": 252
       },
       {
         "chapter": "Kapitel2_Einarbeiten/assessment",
@@ -1764,7 +1764,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 30669,
+    "wordCount": 32531,
     "openIssues": 7,
     "chapterCounts": [
       {
@@ -1849,7 +1849,7 @@
       },
       {
         "chapter": "annotation/workflow.md",
-        "words": 1601
+        "words": 1600
       },
       {
         "chapter": "annotation/modelle.md",
@@ -1869,11 +1869,11 @@
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 4
+        "words": 97
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 2
+        "words": 1865
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
@@ -1881,7 +1881,7 @@
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 97
+        "words": 4
       },
       {
         "chapter": "annotation/resumee_annotation.md",
