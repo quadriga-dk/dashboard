@@ -329,7 +329,7 @@
   },
   "tabelle-03": {
     "wordCount": 27882,
-    "openIssues": 17,
+    "openIssues": 14,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -474,7 +474,7 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 20553,
+    "wordCount": 20598,
     "openIssues": 4,
     "chapterCounts": [
       {
@@ -527,15 +527,15 @@
       },
       {
         "chapter": "Kapitel3_Datenmanagement/organisation",
-        "words": 1061
+        "words": 1089
       },
       {
         "chapter": "Kapitel3_Datenmanagement/erschliessung",
-        "words": 716
+        "words": 747
       },
       {
         "chapter": "Kapitel3_Datenmanagement/resumee",
-        "words": 70
+        "words": 200
       },
       {
         "chapter": "Kapitel3_Datenmanagement/assessment",
@@ -547,11 +547,11 @@
       },
       {
         "chapter": "Kapitel4_Publikation/aufbewahrung",
-        "words": 2368
+        "words": 2289
       },
       {
         "chapter": "Kapitel4_Publikation/publikation",
-        "words": 949
+        "words": 884
       },
       {
         "chapter": "Kapitel4_Publikation/kommunikation",
