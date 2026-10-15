@@ -328,12 +328,12 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 27882,
-    "openIssues": 15,
+    "wordCount": 27982,
+    "openIssues": 12,
     "chapterCounts": [
       {
         "chapter": "intro",
-        "words": 702
+        "words": 728
       },
       {
         "chapter": "1_einstieg/1.0_einleitung",
@@ -345,7 +345,7 @@
       },
       {
         "chapter": "1_einstieg/1.2_technische-voraussetzungen",
-        "words": 564
+        "words": 562
       },
       {
         "chapter": "2_operationalisierung/2.0_fragestellung-operationalisierung",
@@ -458,6 +458,10 @@
       {
         "chapter": "7_abschluss/7.2_literaturverzeichnis",
         "words": 72
+      },
+      {
+        "chapter": "7_abschluss/7.3.1_materials",
+        "words": 76
       },
       {
         "chapter": "7_abschluss/7.3_authors",
@@ -1764,7 +1768,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 32531,
+    "wordCount": 33727,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1857,11 +1861,11 @@
       },
       {
         "chapter": "annotation/technik.md",
-        "words": 1753
+        "words": 1714
       },
       {
         "chapter": "annotation/einstellung_intro.md",
-        "words": 1003
+        "words": 999
       },
       {
         "chapter": "annotation/einstellung_notebook.ipynb",
@@ -1869,19 +1873,19 @@
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 97
+        "words": 551
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 1865
+        "words": 1945
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 5653
+        "words": 5609
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 4
+        "words": 753
       },
       {
         "chapter": "annotation/resumee_annotation.md",
