@@ -328,7 +328,7 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 27982,
+    "wordCount": 27981,
     "openIssues": 12,
     "chapterCounts": [
       {
@@ -341,7 +341,7 @@
       },
       {
         "chapter": "1_einstieg/1.1_lernziele",
-        "words": 193
+        "words": 192
       },
       {
         "chapter": "1_einstieg/1.2_technische-voraussetzungen",
