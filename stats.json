@@ -328,12 +328,12 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 27981,
-    "openIssues": 12,
+    "wordCount": 28594,
+    "openIssues": 8,
     "chapterCounts": [
       {
         "chapter": "intro",
-        "words": 728
+        "words": 684
       },
       {
         "chapter": "1_einstieg/1.0_einleitung",
@@ -341,11 +341,11 @@
       },
       {
         "chapter": "1_einstieg/1.1_lernziele",
-        "words": 192
+        "words": 190
       },
       {
         "chapter": "1_einstieg/1.2_technische-voraussetzungen",
-        "words": 562
+        "words": 614
       },
       {
         "chapter": "2_operationalisierung/2.0_fragestellung-operationalisierung",
@@ -369,15 +369,15 @@
       },
       {
         "chapter": "datenbasis/datenbasis",
-        "words": 836
+        "words": 829
       },
       {
         "chapter": "datenbasis/daten-vorbereitung",
-        "words": 1229
+        "words": 1550
       },
       {
         "chapter": "datenbasis/3.3_resumee",
-        "words": 241
+        "words": 280
       },
       {
         "chapter": "datenbasis/assessment",
@@ -397,7 +397,7 @@
       },
       {
         "chapter": "4_dash-prep/4.3_preparation",
-        "words": 492
+        "words": 640
       },
       {
         "chapter": "4_dash-prep/4.4_resumee",
@@ -417,23 +417,23 @@
       },
       {
         "chapter": "dashboard/Übung_Startseite",
-        "words": 1145
+        "words": 1184
       },
       {
         "chapter": "dashboard/Übung_Karte",
-        "words": 2226
+        "words": 2266
       },
       {
         "chapter": "dashboard/Übung_Bewässerungsanalyse",
-        "words": 2501
+        "words": 2487
       },
       {
         "chapter": "dashboard/Übung_Zeitverlauf",
-        "words": 2009
+        "words": 2020
       },
       {
         "chapter": "dashboard/Übung_Baumstatistik",
-        "words": 3806
+        "words": 3836
       },
       {
         "chapter": "dashboard/resumee",
