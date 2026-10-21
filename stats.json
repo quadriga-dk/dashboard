@@ -478,7 +478,7 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 20598,
+    "wordCount": 20560,
     "openIssues": 4,
     "chapterCounts": [
       {
@@ -491,7 +491,7 @@
       },
       {
         "chapter": "Kapitel1_Einstieg/lernziele",
-        "words": 239
+        "words": 201
       },
       {
         "chapter": "Kapitel1_Einstieg/technische_voraussetzungen",
@@ -1768,7 +1768,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 37016,
+    "wordCount": 37114,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1865,7 +1865,7 @@
       },
       {
         "chapter": "annotation/einstellung_intro.md",
-        "words": 999
+        "words": 1007
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
@@ -1877,7 +1877,7 @@
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 1945
+        "words": 1861
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
@@ -1909,11 +1909,11 @@
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 1801
+        "words": 1966
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
-        "words": 4
+        "words": 13
       },
       {
         "chapter": "auswertung/resumee_auswertung.md",
