@@ -1768,7 +1768,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 37114,
+    "wordCount": 37354,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1865,11 +1865,11 @@
       },
       {
         "chapter": "annotation/einstellung_intro.md",
-        "words": 1007
+        "words": 420
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 3951
+        "words": 4030
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
@@ -1877,11 +1877,11 @@
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 1861
+        "words": 1354
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 5668
+        "words": 5876
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
@@ -1905,11 +1905,11 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 1417
+        "words": 1718
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 1966
+        "words": 2713
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
@@ -1953,7 +1953,7 @@
       },
       {
         "chapter": "abschluss/authors",
-        "words": 189
+        "words": 188
       },
       {
         "chapter": "abschluss/quadriga",
