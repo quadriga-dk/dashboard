@@ -328,7 +328,7 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28594,
+    "wordCount": 28658,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -345,7 +345,7 @@
       },
       {
         "chapter": "1_einstieg/1.2_technische-voraussetzungen",
-        "words": 614
+        "words": 667
       },
       {
         "chapter": "2_operationalisierung/2.0_fragestellung-operationalisierung",
@@ -369,7 +369,7 @@
       },
       {
         "chapter": "datenbasis/datenbasis",
-        "words": 829
+        "words": 840
       },
       {
         "chapter": "datenbasis/daten-vorbereitung",
@@ -1768,7 +1768,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 37354,
+    "wordCount": 40264,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1861,31 +1861,31 @@
       },
       {
         "chapter": "annotation/technik.md",
-        "words": 1714
+        "words": 1791
       },
       {
         "chapter": "annotation/einstellung_intro.md",
-        "words": 420
+        "words": 430
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 4030
+        "words": 4232
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 551
+        "words": 1430
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 1354
+        "words": 1592
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 5876
+        "words": 7166
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 753
+        "words": 963
       },
       {
         "chapter": "annotation/resumee_annotation.md",
@@ -1905,7 +1905,7 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 1718
+        "words": 1722
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
