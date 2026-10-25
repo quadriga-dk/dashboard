@@ -1768,7 +1768,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 40264,
+    "wordCount": 41814,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1825,11 +1825,11 @@
       },
       {
         "chapter": "vision/begriffe.md",
-        "words": 1527
+        "words": 1539
       },
       {
         "chapter": "vision/funktion.md",
-        "words": 808
+        "words": 960
       },
       {
         "chapter": "vision/einsatz.md",
@@ -1849,7 +1849,7 @@
       },
       {
         "chapter": "annotation/intro.md",
-        "words": 1093
+        "words": 1101
       },
       {
         "chapter": "annotation/workflow.md",
@@ -1861,7 +1861,7 @@
       },
       {
         "chapter": "annotation/technik.md",
-        "words": 1791
+        "words": 1827
       },
       {
         "chapter": "annotation/einstellung_intro.md",
@@ -1873,7 +1873,7 @@
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 1430
+        "words": 1519
       },
       {
         "chapter": "annotation/figuren_intro.md",
@@ -1885,11 +1885,11 @@
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 963
+        "words": 1852
       },
       {
         "chapter": "annotation/resumee_annotation.md",
-        "words": 1
+        "words": 365
       },
       {
         "chapter": "auswertung/einleitung.md",
