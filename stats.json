@@ -328,8 +328,8 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28658,
-    "openIssues": 8,
+    "wordCount": 28698,
+    "openIssues": 7,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -364,24 +364,24 @@
         "words": 122
       },
       {
-        "chapter": "datenbasis/3.0_datenbasis-intro",
-        "words": 195
+        "chapter": "3_datenbasis/3.0_datenbasis-intro",
+        "words": 199
       },
       {
-        "chapter": "datenbasis/datenbasis",
+        "chapter": "3_datenbasis/3.1_datenbasis",
         "words": 840
       },
       {
-        "chapter": "datenbasis/daten-vorbereitung",
-        "words": 1550
+        "chapter": "3_datenbasis/3.2_daten-vorbereitung",
+        "words": 1556
       },
       {
-        "chapter": "datenbasis/3.3_resumee",
-        "words": 280
+        "chapter": "3_datenbasis/3.3_resumee",
+        "words": 294
       },
       {
-        "chapter": "datenbasis/assessment",
-        "words": 1423
+        "chapter": "3_datenbasis/3.4_assessment",
+        "words": 1419
       },
       {
         "chapter": "4_dash-prep/4.0_intro",
@@ -389,7 +389,7 @@
       },
       {
         "chapter": "4_dash-prep/4.1_dashboard",
-        "words": 948
+        "words": 968
       },
       {
         "chapter": "4_dash-prep/4.2_tools",
@@ -1768,12 +1768,12 @@
     ]
   },
   "bild-04": {
-    "wordCount": 41814,
+    "wordCount": 41858,
     "openIssues": 8,
     "chapterCounts": [
       {
         "chapter": "einleitung",
-        "words": 642
+        "words": 656
       },
       {
         "chapter": "einstieg/einleitung.md",
@@ -1869,7 +1869,7 @@
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 4232
+        "words": 4247
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
@@ -1881,7 +1881,7 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7166
+        "words": 7181
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
