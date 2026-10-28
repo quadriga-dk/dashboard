@@ -328,7 +328,7 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28698,
+    "wordCount": 28657,
     "openIssues": 7,
     "chapterCounts": [
       {
@@ -393,7 +393,7 @@
       },
       {
         "chapter": "4_dash-prep/4.2_tools",
-        "words": 1569
+        "words": 1528
       },
       {
         "chapter": "4_dash-prep/4.3_preparation",
@@ -479,7 +479,7 @@
   },
   "tabelle-04": {
     "wordCount": 20560,
-    "openIssues": 4,
+    "openIssues": 5,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -1550,7 +1550,7 @@
     ]
   },
   "bild-03": {
-    "wordCount": 50008,
+    "wordCount": 50652,
     "openIssues": 5,
     "chapterCounts": [
       {
@@ -1583,31 +1583,15 @@
       },
       {
         "chapter": "02_forschungsdaten_fdm/forschungsdaten",
-        "words": 436
-      },
-      {
-        "chapter": "02_forschungsdaten_fdm/forschungsdaten_fiwi",
-        "words": 751
+        "words": 1173
       },
       {
         "chapter": "02_forschungsdaten_fdm/erhebung_nachnutzung",
-        "words": 657
-      },
-      {
-        "chapter": "02_forschungsdaten_fdm/nachnutzung_ethik",
-        "words": 567
+        "words": 1224
       },
       {
         "chapter": "02_forschungsdaten_fdm/forschungsdatenmanagement",
-        "words": 660
-      },
-      {
-        "chapter": "02_forschungsdaten_fdm/datenmanagementplan",
-        "words": 612
-      },
-      {
-        "chapter": "02_forschungsdaten_fdm/best_practices_fiwi",
-        "words": 411
+        "words": 1684
       },
       {
         "chapter": "02_forschungsdaten_fdm/resümee_02",
@@ -1623,15 +1607,11 @@
       },
       {
         "chapter": "03_metadaten/einführung_metadaten",
-        "words": 748
-      },
-      {
-        "chapter": "03_metadaten/allgemeine_standards",
-        "words": 941
+        "words": 1687
       },
       {
         "chapter": "03_metadaten/metadaten_filmwissenschaft",
-        "words": 973
+        "words": 975
       },
       {
         "chapter": "03_metadaten/diskriminierungssensible_metadaten",
@@ -1651,7 +1631,7 @@
       },
       {
         "chapter": "04_einführung_publikation/strategien_perspektiven",
-        "words": 266
+        "words": 268
       },
       {
         "chapter": "04_einführung_publikation/publikationswege_formate",
@@ -1675,7 +1655,7 @@
       },
       {
         "chapter": "05_aufbereitung_anreicherung/informationen_datenset",
-        "words": 760
+        "words": 761
       },
       {
         "chapter": "05_aufbereitung_anreicherung/moviebarcodes",
@@ -1683,7 +1663,7 @@
       },
       {
         "chapter": "05_aufbereitung_anreicherung/systematische_aufbereitung",
-        "words": 2705
+        "words": 2707
       },
       {
         "chapter": "05_aufbereitung_anreicherung/formatierung_anpassung",
@@ -1695,7 +1675,7 @@
       },
       {
         "chapter": "05_aufbereitung_anreicherung/bereinigung_dokumentation",
-        "words": 1760
+        "words": 1761
       },
       {
         "chapter": "05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung",
@@ -1715,11 +1695,11 @@
       },
       {
         "chapter": "06_publikation_repositorien/versionierung_lizenzierung",
-        "words": 2450
+        "words": 2449
       },
       {
         "chapter": "06_publikation_repositorien/kuratierung_organisation",
-        "words": 1716
+        "words": 1717
       },
       {
         "chapter": "06_publikation_repositorien/dateninfrastrukturen",
@@ -1735,7 +1715,7 @@
       },
       {
         "chapter": "reflexion_resümee/reflexion_zusammenfassung",
-        "words": 672
+        "words": 1194
       },
       {
         "chapter": "epilog/toc",
@@ -1755,7 +1735,7 @@
       },
       {
         "chapter": "epilog/autor_innen",
-        "words": 6
+        "words": 135
       },
       {
         "chapter": "epilog/quadriga",
@@ -1768,7 +1748,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 41858,
+    "wordCount": 44774,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1865,11 +1845,11 @@
       },
       {
         "chapter": "annotation/einstellung_intro.md",
-        "words": 430
+        "words": 755
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 4247
+        "words": 4834
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
@@ -1877,11 +1857,11 @@
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 1592
+        "words": 1993
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7181
+        "words": 7912
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
@@ -1897,7 +1877,7 @@
       },
       {
         "chapter": "auswertung/grundlagen.md",
-        "words": 3
+        "words": 843
       },
       {
         "chapter": "auswertung/datenstruktur.md",
@@ -1917,7 +1897,7 @@
       },
       {
         "chapter": "auswertung/resumee_auswertung.md",
-        "words": 1
+        "words": 33
       },
       {
         "chapter": "reflexion-und-resümee/einleitung.md",
