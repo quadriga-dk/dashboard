@@ -329,7 +329,7 @@
   },
   "tabelle-03": {
     "wordCount": 28657,
-    "openIssues": 7,
+    "openIssues": 6,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1748,12 +1748,12 @@
     ]
   },
   "bild-04": {
-    "wordCount": 44774,
+    "wordCount": 45042,
     "openIssues": 8,
     "chapterCounts": [
       {
         "chapter": "einleitung",
-        "words": 656
+        "words": 711
       },
       {
         "chapter": "einstieg/einleitung.md",
@@ -1829,7 +1829,7 @@
       },
       {
         "chapter": "annotation/intro.md",
-        "words": 1101
+        "words": 1322
       },
       {
         "chapter": "annotation/workflow.md",
@@ -1857,7 +1857,7 @@
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 1993
+        "words": 1992
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
@@ -1885,11 +1885,11 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 1722
+        "words": 1717
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 2713
+        "words": 2711
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
