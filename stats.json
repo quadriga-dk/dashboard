@@ -1,7 +1,7 @@
 {
   "tabelle-01": {
     "wordCount": 32045,
-    "openIssues": 3,
+    "openIssues": 2,
     "chapterCounts": [
       {
         "chapter": "Markdown/0_Intro",
@@ -179,7 +179,7 @@
   },
   "tabelle-02": {
     "wordCount": 25881,
-    "openIssues": 4,
+    "openIssues": 3,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -328,8 +328,8 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28657,
-    "openIssues": 6,
+    "wordCount": 28734,
+    "openIssues": 4,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -397,7 +397,7 @@
       },
       {
         "chapter": "4_dash-prep/4.3_preparation",
-        "words": 640
+        "words": 399
       },
       {
         "chapter": "4_dash-prep/4.4_resumee",
@@ -417,7 +417,7 @@
       },
       {
         "chapter": "dashboard/Übung_Startseite",
-        "words": 1184
+        "words": 1257
       },
       {
         "chapter": "dashboard/Übung_Karte",
@@ -425,7 +425,7 @@
       },
       {
         "chapter": "dashboard/Übung_Bewässerungsanalyse",
-        "words": 2487
+        "words": 2732
       },
       {
         "chapter": "dashboard/Übung_Zeitverlauf",
@@ -479,7 +479,7 @@
   },
   "tabelle-04": {
     "wordCount": 20560,
-    "openIssues": 5,
+    "openIssues": 4,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -1748,7 +1748,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 45042,
+    "wordCount": 49354,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1849,7 +1849,7 @@
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 4834
+        "words": 5058
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
@@ -1861,7 +1861,7 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7912
+        "words": 7911
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
@@ -1885,7 +1885,7 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 1717
+        "words": 3927
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
@@ -1893,7 +1893,7 @@
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
-        "words": 13
+        "words": 1892
       },
       {
         "chapter": "auswertung/resumee_auswertung.md",
