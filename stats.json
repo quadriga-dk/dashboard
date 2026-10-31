@@ -1,7 +1,7 @@
 {
   "tabelle-01": {
-    "wordCount": 32045,
-    "openIssues": 2,
+    "wordCount": 32046,
+    "openIssues": 0,
     "chapterCounts": [
       {
         "chapter": "Markdown/0_Intro",
@@ -165,7 +165,7 @@
       },
       {
         "chapter": "Markdown/9_3_authors",
-        "words": 283
+        "words": 284
       },
       {
         "chapter": "Markdown/9_4_quadriga",
@@ -178,8 +178,8 @@
     ]
   },
   "tabelle-02": {
-    "wordCount": 25881,
-    "openIssues": 3,
+    "wordCount": 25882,
+    "openIssues": 1,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -315,7 +315,7 @@
       },
       {
         "chapter": "abschluss/authors",
-        "words": 221
+        "words": 222
       },
       {
         "chapter": "abschluss/quadriga",
@@ -328,7 +328,7 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28734,
+    "wordCount": 28687,
     "openIssues": 4,
     "chapterCounts": [
       {
@@ -397,7 +397,7 @@
       },
       {
         "chapter": "4_dash-prep/4.3_preparation",
-        "words": 399
+        "words": 352
       },
       {
         "chapter": "4_dash-prep/4.4_resumee",
@@ -1748,7 +1748,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 49354,
+    "wordCount": 51864,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1861,7 +1861,7 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7911
+        "words": 7885
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
@@ -1885,39 +1885,23 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 3927
+        "words": 3935
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 2711
+        "words": 5042
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
-        "words": 1892
+        "words": 1902
       },
       {
         "chapter": "auswertung/resumee_auswertung.md",
-        "words": 33
-      },
-      {
-        "chapter": "reflexion-und-resümee/einleitung.md",
-        "words": 26
-      },
-      {
-        "chapter": "reflexion-und-resümee/reflexion.md",
-        "words": 26
-      },
-      {
-        "chapter": "reflexion-und-resümee/abschlussassessment.md",
-        "words": 2
+        "words": 264
       },
       {
         "chapter": "reflexion-und-resümee/zusammenfassung.md",
-        "words": 1
-      },
-      {
-        "chapter": "reflexion-und-resümee/resümee.md",
-        "words": 15
+        "words": 26
       },
       {
         "chapter": "abschluss/toc",
