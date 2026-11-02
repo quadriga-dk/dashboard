@@ -47,12 +47,12 @@ export async function fetchMetadataYml(caseStudy) {
  */
 function isMetadataComplete(meta) {
   if (!meta) return false;
-  const requiredTopLevel = ["title", "chapters", "date-issued", "version"];
-  const hasTopLevel = requiredTopLevel.every(
-    (key) => meta[key] !== undefined && meta[key] !== null
-  );
-  const hasChapters = Array.isArray(meta.chapters) && meta.chapters.length > 0;
-  return hasTopLevel && hasChapters;
+  const chapters = meta.chapterLIST || meta.chapters;
+  const dateIssued = meta.dateIssued || meta["date-issued"];
+  const hasTitle = Boolean(meta.title);
+  const hasVersion = Boolean(meta.version);
+  const hasChapters = Array.isArray(chapters) && chapters.length > 0;
+  return hasTitle && hasVersion && Boolean(dateIssued) && hasChapters;
 }
 
 /**

@@ -25,6 +25,20 @@ function getShortLabel(repoName) {
 }
 
 /**
+ * Helper to get the chapters list regardless of metadata version.
+ */
+function getChapters(metadata) {
+  return metadata?.chapterLIST || metadata?.chapters || [];
+}
+
+/**
+ * Helper to get learning objectives from a chapter regardless of metadata version.
+ */
+function getChapterObjectives(chapter) {
+  return chapter?.learningObjectiveLIST || chapter?.["learning-objectives"] || [];
+}
+
+/**
  * Computes high-level Key Performance Indicators (KPIs) across all case studies.
  * @param {Array} caseStudies - The list of case study objects.
  * @returns {Object} An object containing total cases, chapters, objectives, and completion ratio.
@@ -34,12 +48,12 @@ export function computeOverviewKpis(caseStudies) {
 
   const totalCases = caseStudies.length;
   const totalChapters = complete.reduce(
-    (sum, cs) => sum + (cs.metadata.chapters?.length || 0),
+    (sum, cs) => sum + getChapters(cs.metadata).length,
     0
   );
   const totalObjectives = complete.reduce((sum, cs) => {
-    const chapterObjectives = (cs.metadata.chapters || []).reduce(
-      (s, ch) => s + (ch["learning-objectives"]?.length || 0),
+    const chapterObjectives = getChapters(cs.metadata).reduce(
+      (s, ch) => s + getChapterObjectives(ch).length,
       0
     );
     return sum + chapterObjectives;
@@ -60,14 +74,16 @@ export function buildWorkloadSeries(caseStudies) {
 
   const analyzed = complete
     .map((cs) => {
-      const chapters = cs.metadata.chapters || [];
+      const chapters = getChapters(cs.metadata);
       const chapterMinutes = chapters.map((ch) =>
-        parseIsoDurationToMinutes(ch["time-required"])
+        parseIsoDurationToMinutes(ch.timeRequired || ch["time-required"])
       );
       const allChaptersHaveTime =
         chapters.length > 0 && chapterMinutes.every((m) => m > 0);
 
-      const caseLevelMinutes = parseIsoDurationToMinutes(cs.metadata["time-required"]);
+      const caseLevelMinutes = parseIsoDurationToMinutes(
+        cs.metadata?.timeRequired || cs.metadata?.["time-required"]
+      );
 
       let mode = "none";
       let totalMinutes = 0;
@@ -146,13 +162,25 @@ function normaliseBloom(raw) {
 
 // Collect all learning-objectives across chapters of one case study
 function allObjectives(cs) {
-  if (!cs.metadata?.chapters) return [];
-  return cs.metadata.chapters.flatMap((ch) => ch["learning-objectives"] || []);
+  const chapters = getChapters(cs.metadata);
+  return chapters.flatMap((ch) => getChapterObjectives(ch));
 }
 
 // ── Feature 3a, 3b: Bloom ───────────────────────────────────
+function getBloomCategory(objective) {
+  return objective?.bloomsCategory || objective?.["blooms-category"];
+}
+
+function getDataFlow(objective) {
+  return objective?.dataFlow || objective?.["data-flow"];
+}
+
+function getCompetency(objective) {
+  return objective?.competency;
+}
+
 function hasBloomData(cs) {
-  return allObjectives(cs).some((o) => BLOOM_ORDER.includes(normaliseBloom(o["blooms-category"])));
+  return allObjectives(cs).some((o) => BLOOM_ORDER.includes(normaliseBloom(getBloomCategory(o))));
 }
 
 /**
@@ -168,7 +196,7 @@ export function buildBloomPerCaseSeries(caseStudies, type = "all") {
   const categories = filtered.map((cs) => getShortLabel(cs.repo));
   const series = BLOOM_ORDER.map((level) => ({
     name: level,
-    data: filtered.map((cs) => allObjectives(cs).filter((o) => normaliseBloom(o["blooms-category"]) === level).length),
+    data: filtered.map((cs) => allObjectives(cs).filter((o) => normaliseBloom(getBloomCategory(o)) === level).length),
   }));
   return { categories, series };
 }
@@ -184,7 +212,7 @@ export function buildBloomGlobalSeries(caseStudies, type = "all") {
   const counts = Object.fromEntries(BLOOM_ORDER.map((l) => [l, 0]));
   filtered.forEach((cs) => {
     allObjectives(cs).forEach((o) => {
-      const level = normaliseBloom(o["blooms-category"]);
+      const level = normaliseBloom(getBloomCategory(o));
       if (level && counts[level] !== undefined) counts[level]++;
     });
   });
@@ -241,7 +269,7 @@ export function buildCompetencySeries(caseStudies, type = "all", sortMode = "alp
 
   complete.forEach((cs) => {
     allObjectives(cs).forEach((o) => {
-      const raw = o["competency"];
+      const raw = getCompetency(o);
       if (!raw || raw === "nicht anwendbar") return;
       const key = raw.trim();
       if (counts[key] !== undefined) {
@@ -277,7 +305,7 @@ export function buildDataFlowSeries(caseStudies, type = "all", sortMode = "alpha
 
   complete.forEach((cs) => {
     allObjectives(cs).forEach((o) => {
-      const raw = o["data-flow"];
+      const raw = getDataFlow(o);
       if (!raw || raw === "nicht anwendbar") return;
       const key = raw.trim();
       if (counts[key] !== undefined) {
@@ -402,7 +430,7 @@ export function buildTypeGroupSummaries(caseStudies) {
       label: getShortLabel(cs.repo),
       version: cs.metadata?.version ?? "–",
       doi: cs.metadata?.identifier ?? null,
-      bookUrl: cs.metadata?.url ?? null,
+      bookUrl: cs.metadata?.identifierOER || cs.metadata?.url || null,
       openIssues: cs.openIssues,
     }));
 
