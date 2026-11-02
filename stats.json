@@ -1748,7 +1748,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 51865,
+    "wordCount": 53104,
     "openIssues": 8,
     "chapterCounts": [
       {
@@ -1901,7 +1901,7 @@
       },
       {
         "chapter": "reflexion-und-resümee/zusammenfassung.md",
-        "words": 26
+        "words": 1265
       },
       {
         "chapter": "abschluss/toc",
