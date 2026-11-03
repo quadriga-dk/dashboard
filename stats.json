@@ -1,7 +1,7 @@
 {
   "tabelle-01": {
     "wordCount": 32046,
-    "openIssues": 0,
+    "openIssues": 1,
     "chapterCounts": [
       {
         "chapter": "Markdown/0_Intro",
@@ -179,7 +179,7 @@
   },
   "tabelle-02": {
     "wordCount": 25882,
-    "openIssues": 1,
+    "openIssues": 2,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -328,7 +328,7 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28687,
+    "wordCount": 28599,
     "openIssues": 4,
     "chapterCounts": [
       {
@@ -385,7 +385,7 @@
       },
       {
         "chapter": "4_dash-prep/4.0_intro",
-        "words": 217
+        "words": 221
       },
       {
         "chapter": "4_dash-prep/4.1_dashboard",
@@ -397,50 +397,50 @@
       },
       {
         "chapter": "4_dash-prep/4.3_preparation",
-        "words": 352
+        "words": 351
       },
       {
         "chapter": "4_dash-prep/4.4_resumee",
-        "words": 236
+        "words": 186
       },
       {
-        "chapter": "4_dash-prep/assessment",
-        "words": 2174
+        "chapter": "4_dash-prep/4.5_assessment",
+        "words": 2156
       },
       {
-        "chapter": "dashboard/Dashboard",
-        "words": 258
+        "chapter": "5_dashboard/5.0_dashboard-intro",
+        "words": 214
       },
       {
-        "chapter": "dashboard/Datenvisualisierung-Grundlagen",
+        "chapter": "5_dashboard/5.1_datenvisualisierung-grundlagen",
         "words": 1056
       },
       {
-        "chapter": "dashboard/Übung_Startseite",
+        "chapter": "5_dashboard/5.2_übung-startseite",
         "words": 1257
       },
       {
-        "chapter": "dashboard/Übung_Karte",
+        "chapter": "5_dashboard/5.3_übung-karte",
         "words": 2266
       },
       {
-        "chapter": "dashboard/Übung_Bewässerungsanalyse",
+        "chapter": "5_dashboard/5.4_übung-bewässerungsanalyse",
         "words": 2732
       },
       {
-        "chapter": "dashboard/Übung_Zeitverlauf",
+        "chapter": "5_dashboard/5.5_übung-zeitverlauf",
         "words": 2020
       },
       {
-        "chapter": "dashboard/Übung_Baumstatistik",
+        "chapter": "5_dashboard/5.6_übung-baumstatistik",
         "words": 3836
       },
       {
-        "chapter": "dashboard/resumee",
+        "chapter": "5_dashboard/5.7_resumee",
         "words": 240
       },
       {
-        "chapter": "dashboard/assessment",
+        "chapter": "5_dashboard/5.8_assessment",
         "words": 1497
       },
       {
@@ -449,7 +449,7 @@
       },
       {
         "chapter": "7_abschluss/7.0_einleitung",
-        "words": 34
+        "words": 36
       },
       {
         "chapter": "7_abschluss/7.1_fragen-feedback",
@@ -457,23 +457,23 @@
       },
       {
         "chapter": "7_abschluss/7.2_literaturverzeichnis",
-        "words": 72
+        "words": 73
       },
       {
         "chapter": "7_abschluss/7.3.1_materials",
-        "words": 76
+        "words": 114
       },
       {
         "chapter": "7_abschluss/7.3_authors",
-        "words": 204
+        "words": 265
       },
       {
         "chapter": "7_abschluss/7.4_quadriga",
-        "words": 248
+        "words": 166
       },
       {
         "chapter": "7_abschluss/7.5_impressum",
-        "words": 35
+        "words": 36
       }
     ]
   },
@@ -1357,7 +1357,7 @@
   },
   "bild-02": {
     "wordCount": 50739,
-    "openIssues": 7,
+    "openIssues": 6,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1748,28 +1748,28 @@
     ]
   },
   "bild-04": {
-    "wordCount": 53104,
+    "wordCount": 53768,
     "openIssues": 8,
     "chapterCounts": [
       {
         "chapter": "einleitung",
-        "words": 711
+        "words": 708
       },
       {
         "chapter": "einstieg/einleitung.md",
-        "words": 30
+        "words": 29
       },
       {
         "chapter": "einstieg/lernziele.md",
-        "words": 197
+        "words": 205
       },
       {
         "chapter": "einstieg/technische-voraussetzungen.md",
-        "words": 50
+        "words": 666
       },
       {
         "chapter": "einstieg/vorkenntnisse.md",
-        "words": 108
+        "words": 155
       },
       {
         "chapter": "filmanalyse/einleitung.md",
@@ -1777,11 +1777,11 @@
       },
       {
         "chapter": "filmanalyse/filmanalyse.md",
-        "words": 956
+        "words": 966
       },
       {
         "chapter": "filmanalyse/annotation.md",
-        "words": 1054
+        "words": 1046
       },
       {
         "chapter": "filmanalyse/quantitativ.md",
@@ -1789,7 +1789,7 @@
       },
       {
         "chapter": "filmanalyse/fragestellungen.md",
-        "words": 938
+        "words": 956
       },
       {
         "chapter": "filmanalyse/resumee_filmanalyse.md",
@@ -1809,11 +1809,11 @@
       },
       {
         "chapter": "vision/funktion.md",
-        "words": 960
+        "words": 962
       },
       {
         "chapter": "vision/einsatz.md",
-        "words": 2132
+        "words": 2134
       },
       {
         "chapter": "vision/grenzen.md",
@@ -1829,7 +1829,7 @@
       },
       {
         "chapter": "annotation/intro.md",
-        "words": 1322
+        "words": 1430
       },
       {
         "chapter": "annotation/workflow.md",
@@ -1885,11 +1885,11 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 3935
+        "words": 3915
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 5043
+        "words": 4928
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
