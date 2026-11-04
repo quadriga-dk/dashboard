@@ -1,7 +1,7 @@
 {
   "tabelle-01": {
     "wordCount": 32046,
-    "openIssues": 1,
+    "openIssues": 0,
     "chapterCounts": [
       {
         "chapter": "Markdown/0_Intro",
@@ -178,8 +178,8 @@
     ]
   },
   "tabelle-02": {
-    "wordCount": 25882,
-    "openIssues": 2,
+    "wordCount": 25894,
+    "openIssues": 0,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -219,7 +219,7 @@
       },
       {
         "chapter": "semantic_web/Semantic_Web_Assessment",
-        "words": 2666
+        "words": 2678
       },
       {
         "chapter": "dcat_ap/DCAT_AP_Metadatenstandard",
@@ -328,8 +328,8 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28599,
-    "openIssues": 4,
+    "wordCount": 28658,
+    "openIssues": 2,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -413,15 +413,15 @@
       },
       {
         "chapter": "5_dashboard/5.1_datenvisualisierung-grundlagen",
-        "words": 1056
+        "words": 1080
       },
       {
         "chapter": "5_dashboard/5.2_übung-startseite",
-        "words": 1257
+        "words": 1268
       },
       {
         "chapter": "5_dashboard/5.3_übung-karte",
-        "words": 2266
+        "words": 2270
       },
       {
         "chapter": "5_dashboard/5.4_übung-bewässerungsanalyse",
@@ -465,7 +465,7 @@
       },
       {
         "chapter": "7_abschluss/7.3_authors",
-        "words": 265
+        "words": 285
       },
       {
         "chapter": "7_abschluss/7.4_quadriga",
@@ -807,7 +807,7 @@
   },
   "text-02": {
     "wordCount": 30865,
-    "openIssues": 34,
+    "openIssues": 35,
     "chapterCounts": [
       {
         "chapter": "front_page/intro",
@@ -1558,15 +1558,15 @@
         "words": 653
       },
       {
-        "chapter": "präambel/toc",
+        "chapter": "einstieg/toc",
         "words": 67
       },
       {
-        "chapter": "präambel/lernziele",
+        "chapter": "einstieg/lernziele",
         "words": 358
       },
       {
-        "chapter": "präambel/zielgruppe_voraussetzungen",
+        "chapter": "einstieg/zielgruppe_voraussetzungen",
         "words": 459
       },
       {
@@ -1718,38 +1718,38 @@
         "words": 1194
       },
       {
-        "chapter": "epilog/toc",
+        "chapter": "abschluss/toc",
         "words": 5
       },
       {
-        "chapter": "epilog/fragen_und_feedback",
+        "chapter": "abschluss/fragen_und_feedback",
         "words": 72
       },
       {
-        "chapter": "epilog/literaturverzeichnis",
+        "chapter": "abschluss/literaturverzeichnis",
         "words": 30
       },
       {
-        "chapter": "epilog/nachgenutzte_materialien",
+        "chapter": "abschluss/nachgenutzte_materialien",
         "words": 811
       },
       {
-        "chapter": "epilog/autor_innen",
+        "chapter": "abschluss/autor_innen",
         "words": 135
       },
       {
-        "chapter": "epilog/quadriga",
+        "chapter": "abschluss/quadriga",
         "words": 254
       },
       {
-        "chapter": "epilog/impressum",
+        "chapter": "abschluss/impressum",
         "words": 35
       }
     ]
   },
   "bild-04": {
-    "wordCount": 53768,
-    "openIssues": 8,
+    "wordCount": 54959,
+    "openIssues": 9,
     "chapterCounts": [
       {
         "chapter": "einleitung",
@@ -1845,11 +1845,11 @@
       },
       {
         "chapter": "annotation/einstellung_intro.md",
-        "words": 755
+        "words": 887
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 5058
+        "words": 5093
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
@@ -1857,7 +1857,7 @@
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 1992
+        "words": 2274
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
@@ -1873,7 +1873,7 @@
       },
       {
         "chapter": "auswertung/einleitung.md",
-        "words": 224
+        "words": 206
       },
       {
         "chapter": "auswertung/grundlagen.md",
@@ -1881,7 +1881,7 @@
       },
       {
         "chapter": "auswertung/datenstruktur.md",
-        "words": 3
+        "words": 391
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
@@ -1889,11 +1889,11 @@
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 4928
+        "words": 4927
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
-        "words": 1902
+        "words": 2275
       },
       {
         "chapter": "auswertung/resumee_auswertung.md",
