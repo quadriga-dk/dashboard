@@ -328,12 +328,12 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28658,
-    "openIssues": 2,
+    "wordCount": 28688,
+    "openIssues": 1,
     "chapterCounts": [
       {
         "chapter": "intro",
-        "words": 684
+        "words": 697
       },
       {
         "chapter": "1_einstieg/1.0_einleitung",
@@ -425,7 +425,7 @@
       },
       {
         "chapter": "5_dashboard/5.4_übung-bewässerungsanalyse",
-        "words": 2732
+        "words": 2736
       },
       {
         "chapter": "5_dashboard/5.5_übung-zeitverlauf",
@@ -433,11 +433,11 @@
       },
       {
         "chapter": "5_dashboard/5.6_übung-baumstatistik",
-        "words": 3836
+        "words": 3824
       },
       {
         "chapter": "5_dashboard/5.7_resumee",
-        "words": 240
+        "words": 260
       },
       {
         "chapter": "5_dashboard/5.8_assessment",
@@ -445,7 +445,7 @@
       },
       {
         "chapter": "Zusammenfassung",
-        "words": 656
+        "words": 657
       },
       {
         "chapter": "7_abschluss/7.0_einleitung",
@@ -457,7 +457,7 @@
       },
       {
         "chapter": "7_abschluss/7.2_literaturverzeichnis",
-        "words": 73
+        "words": 77
       },
       {
         "chapter": "7_abschluss/7.3.1_materials",
@@ -478,7 +478,7 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 20560,
+    "wordCount": 20559,
     "openIssues": 4,
     "chapterCounts": [
       {
@@ -491,7 +491,7 @@
       },
       {
         "chapter": "Kapitel1_Einstieg/lernziele",
-        "words": 201
+        "words": 200
       },
       {
         "chapter": "Kapitel1_Einstieg/technische_voraussetzungen",
@@ -806,7 +806,7 @@
     ]
   },
   "text-02": {
-    "wordCount": 30865,
+    "wordCount": 30951,
     "openIssues": 35,
     "chapterCounts": [
       {
@@ -819,7 +819,7 @@
       },
       {
         "chapter": "introduction/introduction_learning-outcomes",
-        "words": 145
+        "words": 378
       },
       {
         "chapter": "introduction/introduction_requirements",
@@ -827,7 +827,7 @@
       },
       {
         "chapter": "research_question/research-question_intro",
-        "words": 138
+        "words": 120
       },
       {
         "chapter": "research_question/research-question_research-question",
@@ -847,7 +847,7 @@
       },
       {
         "chapter": "corpus_collection/corpus-collection_intro",
-        "words": 234
+        "words": 221
       },
       {
         "chapter": "corpus_collection/corpus-collection_corpora-as-research-objects",
@@ -871,7 +871,7 @@
       },
       {
         "chapter": "html_intro/html-intro_intro",
-        "words": 205
+        "words": 174
       },
       {
         "chapter": "html_intro/html-intro_text_as_digital_objects",
@@ -895,11 +895,11 @@
       },
       {
         "chapter": "scraping_intro/scraping_intro",
-        "words": 132
+        "words": 114
       },
       {
         "chapter": "scraping_intro/scraping_http-intro",
-        "words": 565
+        "words": 530
       },
       {
         "chapter": "scraping_intro/scraping_method-overview",
@@ -915,7 +915,7 @@
       },
       {
         "chapter": "corpus_building/corpus-building_intro",
-        "words": 133
+        "words": 111
       },
       {
         "chapter": "corpus_building/corpus_building_mass_scraping_press-releases",
@@ -931,7 +931,7 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_intro",
-        "words": 161
+        "words": 147
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_text_complexity",
@@ -959,7 +959,7 @@
       },
       {
         "chapter": "reflection/reflection_reflection",
-        "words": 731
+        "words": 735
       },
       {
         "chapter": "reflection/reflection_outlook",
@@ -993,7 +993,7 @@
   },
   "text-03": {
     "wordCount": 48864,
-    "openIssues": 45,
+    "openIssues": 46,
     "chapterCounts": [
       {
         "chapter": "front_page/intro",
@@ -1150,12 +1150,12 @@
     "chapterCounts": []
   },
   "bild-01": {
-    "wordCount": 33950,
-    "openIssues": 12,
+    "wordCount": 33964,
+    "openIssues": 10,
     "chapterCounts": [
       {
         "chapter": "intro",
-        "words": 892
+        "words": 899
       },
       {
         "chapter": "Einstieg/toc",
@@ -1335,7 +1335,7 @@
       },
       {
         "chapter": "Abschluss/Bibliographie",
-        "words": 51
+        "words": 58
       },
       {
         "chapter": "Abschluss/Nachgenutzte_Materialien",
@@ -1356,12 +1356,12 @@
     ]
   },
   "bild-02": {
-    "wordCount": 50739,
+    "wordCount": 50753,
     "openIssues": 6,
     "chapterCounts": [
       {
         "chapter": "intro",
-        "words": 733
+        "words": 740
       },
       {
         "chapter": "einstieg/toc.md",
@@ -1533,7 +1533,7 @@
       },
       {
         "chapter": "abschluss/literaturverzeichnis",
-        "words": 58
+        "words": 65
       },
       {
         "chapter": "abschluss/authors",
@@ -1550,12 +1550,12 @@
     ]
   },
   "bild-03": {
-    "wordCount": 50652,
-    "openIssues": 5,
+    "wordCount": 50657,
+    "openIssues": 3,
     "chapterCounts": [
       {
         "chapter": "intro",
-        "words": 653
+        "words": 660
       },
       {
         "chapter": "einstieg/toc",
@@ -1567,7 +1567,7 @@
       },
       {
         "chapter": "einstieg/zielgruppe_voraussetzungen",
-        "words": 459
+        "words": 460
       },
       {
         "chapter": "02_forschungsdaten_fdm/toc_02",
@@ -1587,7 +1587,7 @@
       },
       {
         "chapter": "02_forschungsdaten_fdm/erhebung_nachnutzung",
-        "words": 1224
+        "words": 1223
       },
       {
         "chapter": "02_forschungsdaten_fdm/forschungsdatenmanagement",
@@ -1607,7 +1607,7 @@
       },
       {
         "chapter": "03_metadaten/einführung_metadaten",
-        "words": 1687
+        "words": 1686
       },
       {
         "chapter": "03_metadaten/metadaten_filmwissenschaft",
@@ -1655,7 +1655,7 @@
       },
       {
         "chapter": "05_aufbereitung_anreicherung/informationen_datenset",
-        "words": 761
+        "words": 760
       },
       {
         "chapter": "05_aufbereitung_anreicherung/moviebarcodes",
@@ -1675,7 +1675,7 @@
       },
       {
         "chapter": "05_aufbereitung_anreicherung/bereinigung_dokumentation",
-        "words": 1761
+        "words": 1762
       },
       {
         "chapter": "05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung",
@@ -1695,11 +1695,11 @@
       },
       {
         "chapter": "06_publikation_repositorien/versionierung_lizenzierung",
-        "words": 2449
+        "words": 2448
       },
       {
         "chapter": "06_publikation_repositorien/kuratierung_organisation",
-        "words": 1717
+        "words": 1718
       },
       {
         "chapter": "06_publikation_repositorien/dateninfrastrukturen",
@@ -1715,7 +1715,7 @@
       },
       {
         "chapter": "reflexion_resümee/reflexion_zusammenfassung",
-        "words": 1194
+        "words": 1193
       },
       {
         "chapter": "abschluss/toc",
@@ -1748,12 +1748,12 @@
     ]
   },
   "bild-04": {
-    "wordCount": 54959,
-    "openIssues": 9,
+    "wordCount": 55046,
+    "openIssues": 6,
     "chapterCounts": [
       {
         "chapter": "einleitung",
-        "words": 708
+        "words": 715
       },
       {
         "chapter": "einstieg/einleitung.md",
@@ -1853,7 +1853,7 @@
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 1519
+        "words": 1542
       },
       {
         "chapter": "annotation/figuren_intro.md",
@@ -1861,11 +1861,11 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7885
+        "words": 7893
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 1852
+        "words": 1892
       },
       {
         "chapter": "annotation/resumee_annotation.md",
@@ -1913,7 +1913,7 @@
       },
       {
         "chapter": "abschluss/literaturverzeichnis",
-        "words": 59
+        "words": 68
       },
       {
         "chapter": "abschluss/authors",
