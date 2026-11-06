@@ -329,7 +329,7 @@
   },
   "tabelle-03": {
     "wordCount": 28688,
-    "openIssues": 1,
+    "openIssues": 0,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1357,7 +1357,7 @@
   },
   "bild-02": {
     "wordCount": 50753,
-    "openIssues": 6,
+    "openIssues": 3,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1748,8 +1748,8 @@
     ]
   },
   "bild-04": {
-    "wordCount": 55046,
-    "openIssues": 6,
+    "wordCount": 61156,
+    "openIssues": 3,
     "chapterCounts": [
       {
         "chapter": "einleitung",
@@ -1796,8 +1796,12 @@
         "words": 680
       },
       {
+        "chapter": "filmanalyse/assessment_filmanalyse.md",
+        "words": 1011
+      },
+      {
         "chapter": "vision/einleitung.md",
-        "words": 217
+        "words": 216
       },
       {
         "chapter": "vision/grundlagen.md",
@@ -1822,6 +1826,10 @@
       {
         "chapter": "vision/resumee_vision.md",
         "words": 747
+      },
+      {
+        "chapter": "vision/assessment_vision.md",
+        "words": 1128
       },
       {
         "chapter": "annotation/einleitung.md",
@@ -1853,7 +1861,7 @@
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 1542
+        "words": 1545
       },
       {
         "chapter": "annotation/figuren_intro.md",
@@ -1865,11 +1873,15 @@
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 1892
+        "words": 2040
       },
       {
         "chapter": "annotation/resumee_annotation.md",
         "words": 365
+      },
+      {
+        "chapter": "annotation/assessment_annotation.md",
+        "words": 1777
       },
       {
         "chapter": "auswertung/einleitung.md",
@@ -1900,8 +1912,16 @@
         "words": 264
       },
       {
+        "chapter": "auswertung/assessment_auswertung.md",
+        "words": 1091
+      },
+      {
         "chapter": "reflexion-und-resümee/zusammenfassung.md",
         "words": 1265
+      },
+      {
+        "chapter": "reflexion-und-resümee/assessment_reflexion.md",
+        "words": 953
       },
       {
         "chapter": "abschluss/toc",
