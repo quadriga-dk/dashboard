@@ -1748,12 +1748,12 @@
     ]
   },
   "bild-04": {
-    "wordCount": 61156,
+    "wordCount": 60717,
     "openIssues": 3,
     "chapterCounts": [
       {
         "chapter": "einleitung",
-        "words": 715
+        "words": 737
       },
       {
         "chapter": "einstieg/einleitung.md",
@@ -1849,7 +1849,7 @@
       },
       {
         "chapter": "annotation/technik.md",
-        "words": 1827
+        "words": 1910
       },
       {
         "chapter": "annotation/einstellung_intro.md",
@@ -1857,11 +1857,11 @@
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 5093
+        "words": 5002
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 1545
+        "words": 1542
       },
       {
         "chapter": "annotation/figuren_intro.md",
@@ -1869,11 +1869,11 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7893
+        "words": 7783
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 2040
+        "words": 2069
       },
       {
         "chapter": "annotation/resumee_annotation.md",
@@ -1897,11 +1897,11 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 3915
+        "words": 3475
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 4927
+        "words": 4998
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
