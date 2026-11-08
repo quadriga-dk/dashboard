@@ -1748,7 +1748,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 60717,
+    "wordCount": 60723,
     "openIssues": 3,
     "chapterCounts": [
       {
@@ -1837,23 +1837,23 @@
       },
       {
         "chapter": "annotation/intro.md",
-        "words": 1430
+        "words": 1425
       },
       {
         "chapter": "annotation/workflow.md",
-        "words": 1600
+        "words": 1614
       },
       {
         "chapter": "annotation/modelle.md",
-        "words": 681
+        "words": 679
       },
       {
         "chapter": "annotation/technik.md",
-        "words": 1910
+        "words": 1909
       },
       {
         "chapter": "annotation/einstellung_intro.md",
-        "words": 887
+        "words": 881
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
@@ -1865,7 +1865,7 @@
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 2274
+        "words": 2280
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
