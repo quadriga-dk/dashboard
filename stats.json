@@ -479,7 +479,7 @@
   },
   "tabelle-04": {
     "wordCount": 20559,
-    "openIssues": 4,
+    "openIssues": 2,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -1748,7 +1748,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 60723,
+    "wordCount": 60685,
     "openIssues": 3,
     "chapterCounts": [
       {
@@ -1857,7 +1857,7 @@
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 5002
+        "words": 5057
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
@@ -1869,11 +1869,11 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7783
+        "words": 7714
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 2069
+        "words": 2045
       },
       {
         "chapter": "annotation/resumee_annotation.md",
