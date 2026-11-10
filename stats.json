@@ -478,12 +478,12 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 20559,
+    "wordCount": 19759,
     "openIssues": 2,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
-        "words": 550
+        "words": 568
       },
       {
         "chapter": "Kapitel1_Einstieg/einleitung",
@@ -495,23 +495,23 @@
       },
       {
         "chapter": "Kapitel1_Einstieg/technische_voraussetzungen",
-        "words": 180
+        "words": 191
       },
       {
         "chapter": "Kapitel1_Einstieg/nachträglich-publizieren",
-        "words": 690
+        "words": 763
       },
       {
         "chapter": "Kapitel2_Einarbeiten/einleitung",
-        "words": 314
+        "words": 300
       },
       {
         "chapter": "Kapitel2_Einarbeiten/einordnung",
-        "words": 530
+        "words": 565
       },
       {
         "chapter": "Kapitel2_Einarbeiten/qualitätsprüfung",
-        "words": 1963
+        "words": 1040
       },
       {
         "chapter": "Kapitel2_Einarbeiten/vorgaben",
@@ -600,12 +600,12 @@
     ]
   },
   "text-01": {
-    "wordCount": 45684,
+    "wordCount": 45714,
     "openIssues": 9,
     "chapterCounts": [
       {
         "chapter": "front_page/intro",
-        "words": 440
+        "words": 446
       },
       {
         "chapter": "einstieg/einführung",
@@ -641,7 +641,7 @@
       },
       {
         "chapter": "corpus_collection/corpus-collection_intro",
-        "words": 272
+        "words": 278
       },
       {
         "chapter": "corpus_collection/corpus-collection_corpora-as-research-objects",
@@ -669,7 +669,7 @@
       },
       {
         "chapter": "ocr/ocr_intro",
-        "words": 176
+        "words": 182
       },
       {
         "chapter": "ocr/ocr",
@@ -729,7 +729,7 @@
       },
       {
         "chapter": "corpus_processing/corpus-processing_intro",
-        "words": 203
+        "words": 209
       },
       {
         "chapter": "corpus_processing/corpus-processing_intro-to-nlp",
@@ -789,7 +789,7 @@
       },
       {
         "chapter": "abschluss/literaturverzeichnis",
-        "words": 57
+        "words": 63
       },
       {
         "chapter": "abschluss/authors",
@@ -806,15 +806,15 @@
     ]
   },
   "text-02": {
-    "wordCount": 30951,
-    "openIssues": 35,
+    "wordCount": 31011,
+    "openIssues": 31,
     "chapterCounts": [
       {
         "chapter": "front_page/intro",
-        "words": 385
+        "words": 419
       },
       {
-        "chapter": "präambel/einführung",
+        "chapter": "einstieg/einführung",
         "words": 80
       },
       {
@@ -835,7 +835,7 @@
       },
       {
         "chapter": "research_question/research-question_operationalization",
-        "words": 750
+        "words": 751
       },
       {
         "chapter": "research_question/research-question_summary",
@@ -847,15 +847,15 @@
       },
       {
         "chapter": "corpus_collection/corpus-collection_intro",
-        "words": 221
+        "words": 220
       },
       {
         "chapter": "corpus_collection/corpus-collection_corpora-as-research-objects",
-        "words": 485
+        "words": 484
       },
       {
         "chapter": "corpus_collection/corpus-collection_metadata",
-        "words": 851
+        "words": 852
       },
       {
         "chapter": "corpus_collection/corpus-collection_building-our-corpus",
@@ -883,7 +883,7 @@
       },
       {
         "chapter": "html_intro/html-intro_structural-analysis",
-        "words": 1424
+        "words": 1426
       },
       {
         "chapter": "html_intro/html-intro_summary",
@@ -903,7 +903,7 @@
       },
       {
         "chapter": "scraping_intro/scraping_method-overview",
-        "words": 1339
+        "words": 1336
       },
       {
         "chapter": "scraping_intro/scraping_summary",
@@ -911,7 +911,7 @@
       },
       {
         "chapter": "scraping_intro/scraping_assessment",
-        "words": 1639
+        "words": 1637
       },
       {
         "chapter": "corpus_building/corpus-building_intro",
@@ -927,7 +927,7 @@
       },
       {
         "chapter": "corpus_building/corpus-building_assessment",
-        "words": 1843
+        "words": 1842
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_intro",
@@ -947,7 +947,7 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_visualization",
-        "words": 1256
+        "words": 1252
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_resumee",
@@ -966,41 +966,41 @@
         "words": 244
       },
       {
-        "chapter": "epilog/toc",
+        "chapter": "abschluss/toc",
         "words": 13
       },
       {
-        "chapter": "epilog/fragen_feedback",
+        "chapter": "abschluss/fragen_feedback",
         "words": 39
       },
       {
-        "chapter": "epilog/bibliography",
-        "words": 29
+        "chapter": "abschluss/bibliography",
+        "words": 63
       },
       {
-        "chapter": "epilog/authors",
+        "chapter": "abschluss/authors",
         "words": 135
       },
       {
-        "chapter": "epilog/QUADRIGA",
+        "chapter": "abschluss/QUADRIGA",
         "words": 237
       },
       {
-        "chapter": "epilog/impressum",
+        "chapter": "abschluss/impressum",
         "words": 31
       }
     ]
   },
   "text-03": {
-    "wordCount": 48864,
-    "openIssues": 46,
+    "wordCount": 48660,
+    "openIssues": 44,
     "chapterCounts": [
       {
         "chapter": "front_page/intro",
-        "words": 372
+        "words": 404
       },
       {
-        "chapter": "introduction/einführung",
+        "chapter": "einstieg/einführung",
         "words": 8
       },
       {
@@ -1013,7 +1013,7 @@
       },
       {
         "chapter": "research_question/research-question_intro",
-        "words": 207
+        "words": 151
       },
       {
         "chapter": "research_question/research-question_research-question",
@@ -1033,7 +1033,7 @@
       },
       {
         "chapter": "corpus_collection/corpus-collection_intro",
-        "words": 376
+        "words": 291
       },
       {
         "chapter": "corpus_collection/corpus-collection_corpora-as-research-objects",
@@ -1065,7 +1065,7 @@
       },
       {
         "chapter": "corpus_processing/corpus-processing_intro",
-        "words": 221
+        "words": 174
       },
       {
         "chapter": "corpus_processing/corpus-processing_intro-to-nlp",
@@ -1085,7 +1085,7 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_intro",
-        "words": 371
+        "words": 291
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_analysis",
@@ -1120,27 +1120,27 @@
         "words": 1074
       },
       {
-        "chapter": "epilog/toc",
+        "chapter": "abschluss/toc",
         "words": 5
       },
       {
-        "chapter": "epilog/fragen_und_feedback",
+        "chapter": "abschluss/fragen_und_feedback",
         "words": 39
       },
       {
-        "chapter": "epilog/literaturverzeichnis",
-        "words": 29
+        "chapter": "abschluss/literaturverzeichnis",
+        "words": 61
       },
       {
-        "chapter": "epilog/authors",
+        "chapter": "abschluss/authors",
         "words": 135
       },
       {
-        "chapter": "epilog/quadriga",
+        "chapter": "abschluss/quadriga",
         "words": 237
       },
       {
-        "chapter": "epilog/impressum",
+        "chapter": "abschluss/impressum",
         "words": 31
       }
     ]
@@ -1748,12 +1748,12 @@
     ]
   },
   "bild-04": {
-    "wordCount": 60685,
+    "wordCount": 60315,
     "openIssues": 3,
     "chapterCounts": [
       {
         "chapter": "einleitung",
-        "words": 737
+        "words": 736
       },
       {
         "chapter": "einstieg/einleitung.md",
@@ -1765,35 +1765,35 @@
       },
       {
         "chapter": "einstieg/technische-voraussetzungen.md",
-        "words": 666
+        "words": 665
       },
       {
         "chapter": "einstieg/vorkenntnisse.md",
-        "words": 155
+        "words": 153
       },
       {
         "chapter": "filmanalyse/einleitung.md",
-        "words": 210
+        "words": 211
       },
       {
         "chapter": "filmanalyse/filmanalyse.md",
-        "words": 966
+        "words": 957
       },
       {
         "chapter": "filmanalyse/annotation.md",
-        "words": 1046
+        "words": 1047
       },
       {
         "chapter": "filmanalyse/quantitativ.md",
-        "words": 1769
+        "words": 1761
       },
       {
         "chapter": "filmanalyse/fragestellungen.md",
-        "words": 956
+        "words": 926
       },
       {
         "chapter": "filmanalyse/resumee_filmanalyse.md",
-        "words": 680
+        "words": 678
       },
       {
         "chapter": "filmanalyse/assessment_filmanalyse.md",
@@ -1809,7 +1809,7 @@
       },
       {
         "chapter": "vision/begriffe.md",
-        "words": 1539
+        "words": 1537
       },
       {
         "chapter": "vision/funktion.md",
@@ -1829,27 +1829,27 @@
       },
       {
         "chapter": "vision/assessment_vision.md",
-        "words": 1128
+        "words": 1118
       },
       {
         "chapter": "annotation/einleitung.md",
-        "words": 233
+        "words": 230
       },
       {
         "chapter": "annotation/intro.md",
-        "words": 1425
+        "words": 1424
       },
       {
         "chapter": "annotation/workflow.md",
-        "words": 1614
+        "words": 1612
       },
       {
         "chapter": "annotation/modelle.md",
-        "words": 679
+        "words": 684
       },
       {
         "chapter": "annotation/technik.md",
-        "words": 1909
+        "words": 1889
       },
       {
         "chapter": "annotation/einstellung_intro.md",
@@ -1857,23 +1857,23 @@
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 5057
+        "words": 5051
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
-        "words": 1542
+        "words": 1536
       },
       {
         "chapter": "annotation/figuren_intro.md",
-        "words": 2280
+        "words": 2274
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 7714
+        "words": 7706
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 2045
+        "words": 2015
       },
       {
         "chapter": "annotation/resumee_annotation.md",
@@ -1881,7 +1881,7 @@
       },
       {
         "chapter": "annotation/assessment_annotation.md",
-        "words": 1777
+        "words": 1643
       },
       {
         "chapter": "auswertung/einleitung.md",
@@ -1889,31 +1889,31 @@
       },
       {
         "chapter": "auswertung/grundlagen.md",
-        "words": 843
+        "words": 837
       },
       {
         "chapter": "auswertung/datenstruktur.md",
-        "words": 391
+        "words": 396
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 3475
+        "words": 3374
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 4998
+        "words": 4964
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
-        "words": 2275
+        "words": 2301
       },
       {
         "chapter": "auswertung/resumee_auswertung.md",
-        "words": 264
+        "words": 266
       },
       {
         "chapter": "auswertung/assessment_auswertung.md",
-        "words": 1091
+        "words": 1103
       },
       {
         "chapter": "reflexion-und-resümee/zusammenfassung.md",
