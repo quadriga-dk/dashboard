@@ -1,6 +1,6 @@
 {
   "tabelle-01": {
-    "wordCount": 32046,
+    "wordCount": 32033,
     "openIssues": 1,
     "chapterCounts": [
       {
@@ -145,7 +145,7 @@
       },
       {
         "chapter": "Markdown/8_Zusammenfassung",
-        "words": 362
+        "words": 349
       },
       {
         "chapter": "Markdown/9_Abschluss",
@@ -478,12 +478,12 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 17215,
-    "openIssues": 4,
+    "wordCount": 16656,
+    "openIssues": 2,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
-        "words": 576
+        "words": 581
       },
       {
         "chapter": "Kapitel1_Einstieg/einleitung",
@@ -502,72 +502,76 @@
         "words": 763
       },
       {
-        "chapter": "Kapitel2_Einarbeiten/einleitung",
+        "chapter": "Kapitel2_Planung/einleitung",
         "words": 300
       },
       {
-        "chapter": "Kapitel2_Einarbeiten/einordnung",
+        "chapter": "Kapitel2_Planung/einordnung",
         "words": 565
       },
       {
-        "chapter": "Kapitel2_Einarbeiten/qualitätsprüfung",
+        "chapter": "Kapitel2_Planung/qualitätsprüfung",
         "words": 727
       },
       {
-        "chapter": "Kapitel2_Einarbeiten/vorgaben",
-        "words": 1369
+        "chapter": "Kapitel2_Planung/vorgaben",
+        "words": 1358
       },
       {
-        "chapter": "Kapitel2_Einarbeiten/resumee",
-        "words": 250
+        "chapter": "Kapitel2_Planung/resumee",
+        "words": 247
       },
       {
-        "chapter": "Kapitel2_Einarbeiten/assessment",
-        "words": 2233
+        "chapter": "Kapitel2_Planung/assessment",
+        "words": 1936
       },
       {
         "chapter": "Kapitel3_Datenmanagement/einleitung",
-        "words": 251
+        "words": 253
       },
       {
         "chapter": "Kapitel3_Datenmanagement/organisation",
-        "words": 1387
+        "words": 1386
       },
       {
         "chapter": "Kapitel3_Datenmanagement/erschliessung",
-        "words": 427
+        "words": 425
       },
       {
         "chapter": "Kapitel3_Datenmanagement/resumee",
-        "words": 182
+        "words": 221
       },
       {
         "chapter": "Kapitel3_Datenmanagement/assessment",
-        "words": 2102
+        "words": 1520
       },
       {
         "chapter": "Kapitel4_Publikation/einleitung",
-        "words": 249
+        "words": 251
       },
       {
         "chapter": "Kapitel4_Publikation/aufbewahrung",
-        "words": 717
+        "words": 739
       },
       {
         "chapter": "Kapitel4_Publikation/publikation",
-        "words": 1026
+        "words": 999
       },
       {
         "chapter": "Kapitel4_Publikation/kommunikation",
-        "words": 459
+        "words": 458
       },
       {
         "chapter": "Kapitel4_Publikation/resumee",
-        "words": 51
+        "words": 224
       },
       {
         "chapter": "Kapitel4_Publikation/assessment",
-        "words": 2463
+        "words": 2068
+      },
+      {
+        "chapter": "Zusammenfassung",
+        "words": 568
       },
       {
         "chapter": "Kapitel5_Abschluss/toc",
@@ -579,19 +583,19 @@
       },
       {
         "chapter": "Kapitel5_Abschluss/literaturverzeichnis",
-        "words": 63
+        "words": 61
       },
       {
         "chapter": "Kapitel5_Abschluss/materialien",
-        "words": 166
+        "words": 146
       },
       {
         "chapter": "Kapitel5_Abschluss/authors",
-        "words": 106
+        "words": 163
       },
       {
         "chapter": "Kapitel5_Abschluss/quadriga",
-        "words": 248
+        "words": 162
       },
       {
         "chapter": "Kapitel5_Abschluss/impressum",
@@ -1151,7 +1155,7 @@
   },
   "bild-01": {
     "wordCount": 33964,
-    "openIssues": 9,
+    "openIssues": 20,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1356,8 +1360,8 @@
     ]
   },
   "bild-02": {
-    "wordCount": 50753,
-    "openIssues": 3,
+    "wordCount": 50752,
+    "openIssues": 2,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1437,7 +1441,7 @@
       },
       {
         "chapter": "bereinigung/openRefine/1_einführung",
-        "words": 683
+        "words": 680
       },
       {
         "chapter": "bereinigung/openRefine/2_import",
@@ -1457,7 +1461,7 @@
       },
       {
         "chapter": "bereinigung/openRefine/5.1_jahre",
-        "words": 3656
+        "words": 3657
       },
       {
         "chapter": "bereinigung/openRefine/5.2_titel",
@@ -1465,11 +1469,11 @@
       },
       {
         "chapter": "bereinigung/openRefine/6_export",
-        "words": 426
+        "words": 427
       },
       {
         "chapter": "bereinigung/resumee_bereinigung",
-        "words": 313
+        "words": 315
       },
       {
         "chapter": "bereinigung/assessment_bereinigung",
@@ -1485,7 +1489,7 @@
       },
       {
         "chapter": "auswertung/datenvisualisierung",
-        "words": 7394
+        "words": 7393
       },
       {
         "chapter": "auswertung/resumee_auswertung",
@@ -1501,7 +1505,7 @@
       },
       {
         "chapter": "publikation/forschungsdaten",
-        "words": 1747
+        "words": 1746
       },
       {
         "chapter": "publikation/publikationsformen",
@@ -1551,7 +1555,7 @@
   },
   "bild-03": {
     "wordCount": 50657,
-    "openIssues": 4,
+    "openIssues": 7,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1748,7 +1752,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 57818,
+    "wordCount": 57815,
     "openIssues": 2,
     "chapterCounts": [
       {
@@ -1789,7 +1793,7 @@
       },
       {
         "chapter": "filmanalyse/fragestellungen.md",
-        "words": 926
+        "words": 925
       },
       {
         "chapter": "filmanalyse/resumee_filmanalyse.md",
@@ -1805,7 +1809,7 @@
       },
       {
         "chapter": "vision/grundlagen.md",
-        "words": 700
+        "words": 699
       },
       {
         "chapter": "vision/begriffe.md",
@@ -1869,11 +1873,11 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 6396
+        "words": 6397
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
-        "words": 2011
+        "words": 2006
       },
       {
         "chapter": "annotation/resumee_annotation.md",
@@ -1885,11 +1889,11 @@
       },
       {
         "chapter": "auswertung/einleitung.md",
-        "words": 207
+        "words": 206
       },
       {
         "chapter": "auswertung/grundlagen.md",
-        "words": 820
+        "words": 819
       },
       {
         "chapter": "auswertung/datenstruktur.md",
@@ -1905,7 +1909,7 @@
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
-        "words": 2285
+        "words": 2286
       },
       {
         "chapter": "auswertung/resumee_auswertung.md",
@@ -1917,7 +1921,7 @@
       },
       {
         "chapter": "reflexion-und-resümee/zusammenfassung.md",
-        "words": 1266
+        "words": 1269
       },
       {
         "chapter": "reflexion-und-resümee/assessment_reflexion.md",
@@ -1925,7 +1929,7 @@
       },
       {
         "chapter": "abschluss/toc",
-        "words": 48
+        "words": 49
       },
       {
         "chapter": "abschluss/fragen-und-feedback",
