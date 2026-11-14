@@ -478,8 +478,8 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 16656,
-    "openIssues": 2,
+    "wordCount": 16657,
+    "openIssues": 0,
     "chapterCounts": [
       {
         "chapter": "Titelseite",
@@ -571,7 +571,7 @@
       },
       {
         "chapter": "Zusammenfassung",
-        "words": 568
+        "words": 569
       },
       {
         "chapter": "Kapitel5_Abschluss/toc",
@@ -604,7 +604,7 @@
     ]
   },
   "text-01": {
-    "wordCount": 45714,
+    "wordCount": 45726,
     "openIssues": 10,
     "chapterCounts": [
       {
@@ -641,7 +641,7 @@
       },
       {
         "chapter": "research_question/research-question_assessment",
-        "words": 1035
+        "words": 1039
       },
       {
         "chapter": "corpus_collection/corpus-collection_intro",
@@ -669,7 +669,7 @@
       },
       {
         "chapter": "corpus_collection/corpus-collection_assessment",
-        "words": 3063
+        "words": 3064
       },
       {
         "chapter": "ocr/ocr_intro",
@@ -693,7 +693,7 @@
       },
       {
         "chapter": "ocr/ocr-quality",
-        "words": 1118
+        "words": 1117
       },
       {
         "chapter": "ocr/ocr_ocr-quality",
@@ -705,7 +705,7 @@
       },
       {
         "chapter": "ocr/ocr_assessment",
-        "words": 3016
+        "words": 3018
       },
       {
         "chapter": "ocr_post_correction/post-correcting_intro",
@@ -717,11 +717,11 @@
       },
       {
         "chapter": "ocr_post_correction/post-correcting_correction",
-        "words": 1876
+        "words": 1878
       },
       {
         "chapter": "ocr_post_correction/post-correcting_llm",
-        "words": 822
+        "words": 823
       },
       {
         "chapter": "ocr_post_correction/post-correcting_summary",
@@ -729,7 +729,7 @@
       },
       {
         "chapter": "ocr_post_correction/post-correcting_assessment",
-        "words": 2762
+        "words": 2763
       },
       {
         "chapter": "corpus_processing/corpus-processing_intro",
@@ -749,7 +749,7 @@
       },
       {
         "chapter": "corpus_processing/corpus-processing_assessment",
-        "words": 2776
+        "words": 2777
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_intro",
@@ -757,11 +757,11 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_analysis",
-        "words": 1739
+        "words": 1738
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_diachronic-analysis",
-        "words": 2182
+        "words": 2183
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_KWIC",
@@ -769,11 +769,11 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_resumee",
-        "words": 178
+        "words": 177
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_assessment",
-        "words": 5152
+        "words": 5154
       },
       {
         "chapter": "reflection/reflection_reflection",
@@ -810,8 +810,8 @@
     ]
   },
   "text-02": {
-    "wordCount": 31011,
-    "openIssues": 32,
+    "wordCount": 31010,
+    "openIssues": 34,
     "chapterCounts": [
       {
         "chapter": "front_page/intro",
@@ -879,7 +879,7 @@
       },
       {
         "chapter": "html_intro/html-intro_text_as_digital_objects",
-        "words": 835
+        "words": 834
       },
       {
         "chapter": "html_intro/html-intro_html-intro",
@@ -996,8 +996,8 @@
     ]
   },
   "text-03": {
-    "wordCount": 48660,
-    "openIssues": 43,
+    "wordCount": 48672,
+    "openIssues": 48,
     "chapterCounts": [
       {
         "chapter": "front_page/intro",
@@ -1033,7 +1033,7 @@
       },
       {
         "chapter": "research_question/research-question_assessment",
-        "words": 885
+        "words": 889
       },
       {
         "chapter": "corpus_collection/corpus-collection_intro",
@@ -1045,11 +1045,11 @@
       },
       {
         "chapter": "corpus_collection/corpus-collection_text_as_digital_objects",
-        "words": 956
+        "words": 955
       },
       {
         "chapter": "corpus_collection/corpus-collection_metadata",
-        "words": 803
+        "words": 804
       },
       {
         "chapter": "corpus_collection/corpus-collection_choosing-our-corpus-based-on-metadata",
@@ -1065,7 +1065,7 @@
       },
       {
         "chapter": "corpus_collection/corpus-collection_assessment",
-        "words": 3839
+        "words": 3842
       },
       {
         "chapter": "corpus_processing/corpus-processing_intro",
@@ -1073,11 +1073,11 @@
       },
       {
         "chapter": "corpus_processing/corpus-processing_intro-to-nlp",
-        "words": 1644
+        "words": 1647
       },
       {
         "chapter": "corpus_processing/corpus-processing_nlp-annotation",
-        "words": 2838
+        "words": 2837
       },
       {
         "chapter": "corpus_processing/corpus-processing_resumee",
@@ -1101,7 +1101,7 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_ngrams-intro",
-        "words": 507
+        "words": 506
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_syntactic-ngrams-intro",
@@ -1109,7 +1109,7 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_syntactic-ngram",
-        "words": 6734
+        "words": 6735
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_resumee",
@@ -1117,7 +1117,7 @@
       },
       {
         "chapter": "corpus_analysis/corpus-analysis_assessment",
-        "words": 7633
+        "words": 7636
       },
       {
         "chapter": "reflection/reflection_reflection",
@@ -1555,7 +1555,7 @@
   },
   "bild-03": {
     "wordCount": 50657,
-    "openIssues": 7,
+    "openIssues": 5,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1752,7 +1752,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 57815,
+    "wordCount": 57820,
     "openIssues": 2,
     "chapterCounts": [
       {
@@ -1861,7 +1861,7 @@
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 4108
+        "words": 4113
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
