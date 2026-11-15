@@ -1752,7 +1752,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 57820,
+    "wordCount": 57841,
     "openIssues": 2,
     "chapterCounts": [
       {
@@ -1861,7 +1861,7 @@
       },
       {
         "chapter": "annotation/einstellungen_notebook.ipynb",
-        "words": 4113
+        "words": 4114
       },
       {
         "chapter": "annotation/einstellung_datensichtung.md",
@@ -1873,7 +1873,7 @@
       },
       {
         "chapter": "annotation/figuren_notebook.ipynb",
-        "words": 6397
+        "words": 6403
       },
       {
         "chapter": "annotation/figuren_datensichtung.md",
@@ -1901,11 +1901,11 @@
       },
       {
         "chapter": "auswertung/visualisierung_einstellungen.ipynb",
-        "words": 3367
+        "words": 3374
       },
       {
         "chapter": "auswertung/visualisierung_figuren.ipynb",
-        "words": 4958
+        "words": 4965
       },
       {
         "chapter": "auswertung/explorative_auswertung.md",
