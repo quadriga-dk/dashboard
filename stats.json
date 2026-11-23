@@ -1154,8 +1154,8 @@
     "chapterCounts": []
   },
   "bild-01": {
-    "wordCount": 33964,
-    "openIssues": 20,
+    "wordCount": 33972,
+    "openIssues": 19,
     "chapterCounts": [
       {
         "chapter": "intro",
@@ -1167,11 +1167,11 @@
       },
       {
         "chapter": "Einstieg/Lernziele",
-        "words": 463
+        "words": 464
       },
       {
         "chapter": "Einstieg/Technische Voraussetzungen.md",
-        "words": 557
+        "words": 558
       },
       {
         "chapter": "Kapitel_I/toc",
@@ -1183,7 +1183,7 @@
       },
       {
         "chapter": "Kapitel_I/weiterführende_Informationen",
-        "words": 950
+        "words": 947
       },
       {
         "chapter": "Kapitel_I/Empirische_Methoden",
@@ -1207,7 +1207,7 @@
       },
       {
         "chapter": "Kapitel_II/Aufgabe_A_UK-3",
-        "words": 852
+        "words": 851
       },
       {
         "chapter": "Kapitel_II/Aufgabe_A_UK-4",
@@ -1215,15 +1215,15 @@
       },
       {
         "chapter": "Kapitel_II/Assessment_A",
-        "words": 1378
+        "words": 1379
       },
       {
         "chapter": "Kapitel_II/toc_B",
-        "words": 179
+        "words": 180
       },
       {
         "chapter": "Kapitel_II/Aufgabe_B",
-        "words": 408
+        "words": 409
       },
       {
         "chapter": "Kapitel_II/Aufgabe_B_UK-1",
@@ -1231,7 +1231,7 @@
       },
       {
         "chapter": "Kapitel_II/Aufgabe_B_UK-2",
-        "words": 1512
+        "words": 1513
       },
       {
         "chapter": "Kapitel_II/Aufgabe_B_UK-3",
@@ -1255,7 +1255,7 @@
       },
       {
         "chapter": "Kapitel_II/Aufgabe_C_UK-2",
-        "words": 1174
+        "words": 1177
       },
       {
         "chapter": "Kapitel_II/Aufgabe_C_UK-3",
@@ -1263,11 +1263,11 @@
       },
       {
         "chapter": "Kapitel_II/Assessment_C",
-        "words": 1855
+        "words": 1853
       },
       {
         "chapter": "Kapitel_II/toc_D",
-        "words": 258
+        "words": 259
       },
       {
         "chapter": "Kapitel_II/Aufgabe_D",
@@ -1279,7 +1279,7 @@
       },
       {
         "chapter": "Kapitel_II/Aufgabe_D_UK-2",
-        "words": 1978
+        "words": 1979
       },
       {
         "chapter": "Kapitel_II/Aufgabe_D_UK-3",
@@ -1287,23 +1287,23 @@
       },
       {
         "chapter": "Kapitel_II/Assessment_D",
-        "words": 2240
+        "words": 2241
       },
       {
         "chapter": "Kapitel_II/toc_E",
-        "words": 162
+        "words": 163
       },
       {
         "chapter": "Kapitel_II/Aufgabe_E",
-        "words": 353
+        "words": 352
       },
       {
         "chapter": "Kapitel_II/Aufgabe_E_UK-1",
-        "words": 1020
+        "words": 1019
       },
       {
         "chapter": "Kapitel_II/Aufgabe_E_UK-2",
-        "words": 1299
+        "words": 1301
       },
       {
         "chapter": "Kapitel_II/Aufgabe_E_UK-3",
@@ -1319,7 +1319,7 @@
       },
       {
         "chapter": "Kapitel_III/Reflexion_Resümee",
-        "words": 622
+        "words": 623
       },
       {
         "chapter": "Kapitel_III/Ausblick",
