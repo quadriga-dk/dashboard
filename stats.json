@@ -328,7 +328,7 @@
     ]
   },
   "tabelle-03": {
-    "wordCount": 28688,
+    "wordCount": 28226,
     "openIssues": 1,
     "chapterCounts": [
       {
@@ -346,10 +346,6 @@
       {
         "chapter": "1_einstieg/1.2_technische-voraussetzungen",
         "words": 667
-      },
-      {
-        "chapter": "2_operationalisierung/2.0_fragestellung-operationalisierung",
-        "words": 168
       },
       {
         "chapter": "2_operationalisierung/2.1_fragestellung",
@@ -374,10 +370,6 @@
       {
         "chapter": "3_datenbasis/3.2_daten-vorbereitung",
         "words": 1556
-      },
-      {
-        "chapter": "3_datenbasis/3.3_resumee",
-        "words": 294
       },
       {
         "chapter": "3_datenbasis/3.4_assessment",
@@ -478,7 +470,7 @@
     ]
   },
   "tabelle-04": {
-    "wordCount": 16657,
+    "wordCount": 16106,
     "openIssues": 0,
     "chapterCounts": [
       {
@@ -500,10 +492,6 @@
       {
         "chapter": "Kapitel1_Einstieg/nachträglich-publizieren",
         "words": 763
-      },
-      {
-        "chapter": "Kapitel2_Planung/einleitung",
-        "words": 300
       },
       {
         "chapter": "Kapitel2_Planung/einordnung",
@@ -544,10 +532,6 @@
       {
         "chapter": "Kapitel3_Datenmanagement/assessment",
         "words": 1520
-      },
-      {
-        "chapter": "Kapitel4_Publikation/einleitung",
-        "words": 251
       },
       {
         "chapter": "Kapitel4_Publikation/aufbewahrung",
@@ -604,7 +588,7 @@
     ]
   },
   "text-01": {
-    "wordCount": 45726,
+    "wordCount": 44687,
     "openIssues": 10,
     "chapterCounts": [
       {
@@ -638,10 +622,6 @@
       {
         "chapter": "research_question/research-question_summary",
         "words": 130
-      },
-      {
-        "chapter": "research_question/research-question_assessment",
-        "words": 1039
       },
       {
         "chapter": "corpus_collection/corpus-collection_intro",
@@ -810,7 +790,7 @@
     ]
   },
   "text-02": {
-    "wordCount": 31010,
+    "wordCount": 29518,
     "openIssues": 34,
     "chapterCounts": [
       {
@@ -906,10 +886,6 @@
         "words": 530
       },
       {
-        "chapter": "scraping_intro/scraping_method-overview",
-        "words": 1336
-      },
-      {
         "chapter": "scraping_intro/scraping_summary",
         "words": 181
       },
@@ -924,10 +900,6 @@
       {
         "chapter": "corpus_building/corpus_building_mass_scraping_press-releases",
         "words": 2934
-      },
-      {
-        "chapter": "corpus_building/corpus-building_summary",
-        "words": 156
       },
       {
         "chapter": "corpus_building/corpus-building_assessment",
@@ -1360,7 +1332,7 @@
     ]
   },
   "bild-02": {
-    "wordCount": 50752,
+    "wordCount": 47139,
     "openIssues": 2,
     "chapterCounts": [
       {
@@ -1408,10 +1380,6 @@
         "words": 3094
       },
       {
-        "chapter": "recherche/metadaten",
-        "words": 1328
-      },
-      {
         "chapter": "recherche/operationalisierung",
         "words": 1539
       },
@@ -1428,20 +1396,12 @@
         "words": 174
       },
       {
-        "chapter": "bereinigung/modell",
-        "words": 1605
-      },
-      {
         "chapter": "bereinigung/datenquelle",
         "words": 1954
       },
       {
         "chapter": "bereinigung/openRefine/0_datenbereinigung",
         "words": 978
-      },
-      {
-        "chapter": "bereinigung/openRefine/1_einführung",
-        "words": 680
       },
       {
         "chapter": "bereinigung/openRefine/2_import",
@@ -1554,7 +1514,7 @@
     ]
   },
   "bild-03": {
-    "wordCount": 50650,
+    "wordCount": 50361,
     "openIssues": 4,
     "chapterCounts": [
       {
@@ -1596,10 +1556,6 @@
       {
         "chapter": "02_forschungsdaten_fdm/forschungsdatenmanagement",
         "words": 1684
-      },
-      {
-        "chapter": "02_forschungsdaten_fdm/resümee_02",
-        "words": 289
       },
       {
         "chapter": "02_forschungsdaten_fdm/selbsttest_wissen_02",
@@ -1752,7 +1708,7 @@
     ]
   },
   "bild-04": {
-    "wordCount": 57811,
+    "wordCount": 52932,
     "openIssues": 2,
     "chapterCounts": [
       {
@@ -1788,18 +1744,6 @@
         "words": 1047
       },
       {
-        "chapter": "filmanalyse/quantitativ.md",
-        "words": 1761
-      },
-      {
-        "chapter": "filmanalyse/fragestellungen.md",
-        "words": 925
-      },
-      {
-        "chapter": "filmanalyse/resumee_filmanalyse.md",
-        "words": 677
-      },
-      {
         "chapter": "filmanalyse/assessment_filmanalyse.md",
         "words": 1011
       },
@@ -1822,10 +1766,6 @@
       {
         "chapter": "vision/einsatz.md",
         "words": 2113
-      },
-      {
-        "chapter": "vision/grenzen.md",
-        "words": 870
       },
       {
         "chapter": "vision/resumee_vision.md",
@@ -1878,10 +1818,6 @@
       {
         "chapter": "annotation/figuren_datensichtung.md",
         "words": 2006
-      },
-      {
-        "chapter": "annotation/resumee_annotation.md",
-        "words": 365
       },
       {
         "chapter": "annotation/assessment_annotation.md",
@@ -1942,14 +1878,6 @@
       {
         "chapter": "abschluss/authors",
         "words": 188
-      },
-      {
-        "chapter": "abschluss/quadriga",
-        "words": 250
-      },
-      {
-        "chapter": "abschluss/impressum",
-        "words": 31
       }
     ]
   }
